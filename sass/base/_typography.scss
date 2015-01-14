@@ -1,0 +1,304 @@
+$start: -1;
+$end: 20;
+
+$base-size: 1em, 2.225em; //  16px 36px
+//$base-size: 16px, 32px; 
+$ms-base: $base-size;
+$ms-ratio: $major-sixth;
+
+$grey: #333;
+
+// Sizes in pxs
+// MS-LIST: 11.52px 16px 19.2px 26.66667px 32px 44.44444px 53.33333px 74.07407px 88.88889px 123.45679px 148.14815px 205.76132px 246.91358px 342.93553px 411.52263px 571.55921px 685.87106px 952.59869px 1143.11843px 1587.66448px 1905.19738px 2646.10748px
+
+// Sizes in ems 
+// MS-LIST: 0.801em 1em 1.335em 1.66667em 2.225em 2.77778em 3.70833em 4.62963em 6.18056em 7.71605em 10.30093em 12.86008em 17.16821em 21.43347em 28.61368em 35.72245em 47.68947em 59.53742em 79.48245em 99.22903em 132.47076em 165.38172em
+
+//@debug ms-list($start, $end, $ms-base, $ms-ratio);
+
+$h1-border-width: false;
+$h1-font-size:  ms(5); // 3.5861em
+$h1-line-height: 1.2;
+$h1-padding: .25em;
+$h1-padding-pos: top;
+$h1-margin: 0;
+$h1-margin-pos: bottom;
+$h1-color: #555;
+
+$h2-border-width: false;
+$h2-font-size: ms(3);
+$h2-line-height: 1.1em;
+$h2-padding: .25em;
+$h2-padding-pos: top;
+$h2-margin-pos: bottom;
+$h2-margin: .25em;
+$h2-color: #444; 
+
+$h3-border-width: false;
+$h3-font-size: ms(2);
+$h3-line-height: 1.1em;
+$h3-padding: .75em;
+$h3-padding-pos: top;
+$h3-margin-pos: bottom;
+$h3-margin: .25em;
+$h3-color: #333; 
+
+$h4-border-width: false;
+$h4-font-size: ms(1);
+$h4-line-height: 1.1em;
+$h4-font-bold: true; 
+$h4-padding: .25em;
+$h4-padding-pos: top;
+$h4-margin-pos: bottom;
+$h4-margin: .25em;
+$h4-color: $grey; 
+
+$h5-border-width: false;
+$h5-font-size: ms(1);
+$h5-line-height: 1.1em;
+$h5-padding: .25em;
+$h5-padding-pos: top;
+$h5-margin-pos: bottom;
+$h5-margin: .25em;
+$h5-color: $grey; 
+
+$h6-border-width: false;
+$h6-font-size: ms(0);
+$h6-line-height: 1.1em;
+$h6-font-bold: true;
+$h6-padding: 0;
+$h6-padding-pos: top;
+$h6-margin-pos: bottom;
+$h6-margin: .125em;
+$h6-color: $grey;
+
+$blockquote-padding: .25em 1em;
+$blockquote-margin: 1em 1.5em 1em 0;
+$blockquote-line-height: inherit; 
+
+$blockquote-border-width: .5em 0 .25em 0;
+$blockquote-border-color: #888;
+$blockquote-border-rgba: rgba($blockquote-border-color,1);
+$blockquote-font-italic: true;
+$blockquote-font-size: 1em;
+$blockquote-border-radius: 0;
+$blockquote-color: #444;
+$blockquote-margin: 1em auto;
+$blockquote-padding: .25em 0 .5em .25em;
+
+$li-margin: 0;
+$li-text-indent: 0;
+
+$h1-font-bold: false !default; // normal
+$h1-font-italic: false !default; // normal
+$h1-font-uppercase: false !default; // normal
+$h1-font-variant: false !default; // normal
+$h1-font-size: 2.5em !default;
+$h1-line-height: 1.125em !default;
+$h1-padding: 1em !default;
+$h1-padding-pos: top !default;
+$h1-margin: 0.3em !default;
+$h1-margin-pos: bottom !default;
+$h1-color: #444 !default;
+$h1-border-width: 0 0 0.2em 0 !default; 
+$h1-border-style: solid !default;
+$h1-border-color: #693 !default;
+//// h2
+$h2-font-bold: false !default; // normal
+$h2-font-italic: false !default; // normal
+$h2-font-uppercase: false !default; // normal
+$h2-font-variant: false !default; // normal
+$h2-font-size: 1.875em !default;
+$h2-line-height: 1.5em !default;
+$h2-padding: 0.8333em !default;
+$h2-padding-pos: top !default;
+$h2-margin: 0.7em !default;
+$h2-margin-pos: bottom !default;
+$h2-color: #555 !default; 
+$h2-border-width: 0 0 0.13333em 0 !default; 
+$h2-border-style: solid !default;
+$h2-border-color: #693 !default;
+//// h3
+$h3-font-bold: false !default; // normal
+$h3-font-italic: false !default; // normal
+$h3-font-uppercase: false !default; // normal
+$h3-font-variant: false !default; // normal
+$h3-font-size: 1.5625em !default;
+$h3-line-height: 1.4em !default;
+$h3-padding: 1em !default;
+$h3-padding-pos: top !default;
+$h3-margin: 0.7em !default;
+$h3-margin-pos: bottom !default;
+$h3-color: #666 !default;
+$h3-border-width: 0 0 0.1em 0 !default; 
+$h3-border-style: solid !default;
+$h3-border-color: #693 !default;
+//// h4
+$h4-font-bold: false !default; // normal
+$h4-font-italic: false !default; // normal
+$h4-font-uppercase: false !default; // normal
+$h4-font-variant: false !default; // normal
+$h4-font-size: 1.25em !default;
+$h4-line-height: 1.5em !default;
+$h4-padding: 1em !default;
+$h4-padding-pos: top !default;
+$h4-margin: 1em !default;
+$h4-margin-pos: bottom !default;
+$h4-color: #777 !default; 
+$h4-border-width: false !default; 
+$h4-border-style: solid !default;
+$h4-border-color: #693 !default;
+//// h5
+$h5-font-bold: false !default; // normal
+$h5-font-italic: false !default; // normal
+$h5-font-uppercase: false !default; // normal
+$h5-font-variant: false !default; // normal
+$h5-font-size: 1.125em !default;
+$h5-line-height: 1.6667em !default;
+$h5-padding: 1.1111em !default;
+$h5-padding-pos: top !default;
+$h5-margin: 0 !default;
+$h5-margin-pos: false !default;
+$h5-color: #888 !default;
+$h5-border-width: false !default; 
+$h5-border-style: solid !default;
+$h5-border-color: #693 !default;
+//// h6
+$h6-font-bold: false !default; // normal
+$h6-font-italic: false !default; // normal
+$h6-font-uppercase: false !default; // normal
+$h6-font-variant: false !default; // normal
+$h6-font-size: inherit !default;
+$h6-line-height: inherit !default;
+$h6-padding: 1em !default;
+$h6-padding-pos: top !default;
+$h6-margin: 0 !default;
+$h6-margin-pos: false !default;
+$h6-color: #999 !default; 
+$h6-border-width: false !default; 
+$h6-border-style: solid !default;
+$h6-border-color: #693 !default;
+/// hr 
+$hr-border-width: false !default; 
+$hr-border-style: solid !default;
+$hr-border-color: #333 !default;
+$hr-height: 0.1em !default;
+$hr-background: #ccc !default;
+$hr-background-rgba: rgba(0,0,0,0.2) !default;
+/// p, ul, ol, hr, table, form, fieldset
+$element-margin: 1.25em 0 !default;
+/// li
+$li-list-style-position: inside !default;
+$li-margin: 1em !default;
+$li-margin-pos: left !default;
+$li-text-indent: -1em !default;
+/// blockquote
+$blockquote-margin: 1em !default;
+$blockquote-padding: 0 1em !default;
+$blockquote-font-bold: false !default; // normal
+$blockquote-font-italic: true !default; // italic
+$blockquote-font-uppercase: false !default; // normal
+$blockquote-font-variant: false !default; // normal
+$blockquote-font-size: 1.25em !default;
+$blockquote-line-height: 1.5em !default;
+$blockquote-letter-spacing: 0.05em !default;
+$blockquote-color: #888 !default;
+$blockquote-border-width: 0.1em 0 0.1em 0 !default;
+$blockquote-border-style: solid !default;
+$blockquote-border-color: #ccc !default;
+$blockquote-border-rgba: rgba(0,0,0,0.2) !default;
+$blockquote-border-radius: 0.25em !default;
+/// blockquote em
+$blockquote-em-font-bold: false !default; // normal
+$blockquote-em-font-italic: false !default; // normal
+$blockquote-em-font-uppercase: false !default; // normal
+$blockquote-em-font-variant: false !default; // normal
+
+h1 {
+  @include bold-italic-uppercase-variant($h1-font-bold, $h1-font-italic, $h1-font-uppercase, $h1-font-variant);
+  @include type-size($h1-font-size, $h1-line-height);
+  @include margin-padding(padding, $h1-padding, $h1-padding-pos);
+  @include margin-padding(margin, $h1-margin, $h1-margin-pos);
+  color: $h1-color;
+  @include border-outline(border, $h1-border-width, $h1-border-style, $h1-border-color);
+}
+
+h2 {
+  @include bold-italic-uppercase-variant($h2-font-bold, $h2-font-italic, $h2-font-uppercase, $h2-font-variant);
+  @include type-size($h2-font-size, $h2-line-height);
+  @include margin-padding(padding, $h2-padding, $h2-padding-pos);
+  @include margin-padding(margin, $h2-margin, $h2-margin-pos);
+  color: $h2-color;
+  @include border-outline(border, $h2-border-width, $h2-border-style, $h2-border-color);
+}
+
+h3 {
+  @include bold-italic-uppercase-variant($h3-font-bold, $h3-font-italic, $h3-font-uppercase, $h3-font-variant);
+  @include type-size($h3-font-size, $h3-line-height);
+  @include margin-padding(padding, $h3-padding, $h3-padding-pos);
+  @include margin-padding(margin, $h3-margin, $h3-margin-pos);
+  color: $h3-color;
+  @include border-outline(border, $h3-border-width, $h3-border-style, $h3-border-color);
+}
+
+h4 {
+  @include bold-italic-uppercase-variant($h4-font-bold, $h4-font-italic, $h4-font-uppercase, $h4-font-variant);
+  @include type-size($h4-font-size, $h4-line-height);
+  @include margin-padding(padding, $h4-padding, $h4-padding-pos);
+  @include margin-padding(margin, $h4-margin, $h4-margin-pos);
+  color: $h4-color;
+  @include border-outline(border, $h4-border-width, $h4-border-style, $h4-border-color);
+}
+
+h5 {
+  @include bold-italic-uppercase-variant($h5-font-bold, $h5-font-italic, $h5-font-uppercase, $h5-font-variant);
+  @include type-size($h5-font-size, $h5-line-height);
+  @include margin-padding(padding, $h5-padding, $h5-padding-pos);
+  @include margin-padding(margin, $h5-margin, $h5-margin-pos);
+  color: $h5-color;
+  @include border-outline(border, $h5-border-width, $h5-border-style, $h5-border-color);
+}
+
+h6 {
+  @include bold-italic-uppercase-variant($h6-font-bold, $h6-font-italic, $h6-font-uppercase, $h6-font-variant);
+  @include type-size($h6-font-size, $h6-line-height);
+  @include margin-padding(padding, $h6-padding, $h6-padding-pos);
+  @include margin-padding(margin, $h6-margin, $h6-margin-pos);
+  color: $h6-color;
+  @include border-outline(border, $h6-border-width, $h6-border-style, $h6-border-color);
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+p, ul, ol, hr, table, form, fieldset {
+  @include margin-padding(margin, $element-margin);
+}
+
+li {
+  list-style-position: $li-list-style-position;
+  @include margin-padding(margin, $li-margin, $li-margin-pos);
+  text-indent: $li-text-indent;
+}
+
+blockquote {
+  @include margin-padding(margin, $blockquote-margin);
+  @include border-outline(border, $blockquote-border-width, $blockquote-border-style, $blockquote-border-color);
+  @include margin-padding(padding, $blockquote-padding);
+  // font-family: $blockquote-font-family;
+  @include bold-italic-uppercase-variant($blockquote-font-bold, $blockquote-font-italic, $blockquote-font-uppercase, $blockquote-font-variant);
+  @include type-size($blockquote-font-size, $blockquote-line-height);
+  letter-spacing: $blockquote-letter-spacing;
+  color: $blockquote-color;
+  border-color: $blockquote-border-rgba;
+  //@include border-radius($blockquote-border-radius);
+  border-radius: $blockquote-border-radius;
+  em {
+    @include bold-italic-uppercase-variant($blockquote-em-font-bold, $blockquote-em-font-italic, $blockquote-em-font-uppercase, $blockquote-em-font-variant);
+  }
+}

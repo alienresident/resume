@@ -1,0 +1,322 @@
+//////////////////////////////
+// LAYOUT: Resume Layout Styles
+//////////////////////////////
+
+//h2 {
+//  margin-bottom: .25em;
+//  margin-top: .5em;
+//  color: #555;
+//}
+//
+//h3 {
+//  color: #333;
+//}
+//
+//h4  {
+//  color: #222;
+//}
+
+body {
+  color: #222;
+}
+ul {
+    margin: 0;
+    padding: 0 0 0 2em;
+
+  li {
+    padding: 0 0 .25em 0;
+  }
+}
+
+.name-links {
+
+  @include respond-to('large') {
+    display: table;
+    width: 100%;
+
+    [itemprop="name"], 
+    .personal-links {
+      display: table-cell;
+    }
+
+    [itemprop="name"] {
+      width: ms(13);
+    }
+
+    .personal-links {
+      //text-align: right;
+      max-width: ms(10);
+    }
+  }
+  
+  .personal-links {
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: inline;
+      list-style: none;
+
+      li {
+        display: inline;
+
+        &:before {
+          content: " • ";
+        }
+
+        &:first-child:before {
+          content: "";
+        } 
+      }
+    }
+  }
+}
+
+.address-contact {
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+.address,
+.phone, 
+.email {
+  display: inline;
+}
+
+.email,
+.phone {
+  &:before {
+    content: " • ";
+  }
+}
+
+.address p {
+  margin-top: 0;
+}
+
+
+.experience-skills {
+  
+  @include respond-to('large') {
+    display: table;
+    width: 100%;
+
+    section, 
+    aside {
+      //display: table-cell;
+      //vertical-align: top;
+    }
+
+    section {
+      max-width: ms(15);
+
+      p {
+        margin: 1em 0 1em 2em;
+        width: ms(14);
+      }
+      
+      ul {
+        margin: 1em 0 1.5em 2em;
+        width: ms(14);
+      }
+    }
+  }
+
+  aside {
+
+    @include respond-to('large') {
+      display: table;
+      width: 100%;
+
+      .ux-skills {
+        display: table-cell;
+        width: ms(13);
+      }
+
+      .tech-skills {
+        display: table-cell;
+        max-width: ms(10);
+      }
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: .5em;
+    }
+
+    ul {
+      margin: 1em 0 0 .25em;
+      padding: 0;
+    }
+//
+//    > h3:first-of-type {
+//      padding-top: 2.25em;
+//    }
+    @include respond-to('small') {
+
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        //display: inline;
+        list-style-type: none;
+        line-height: 1.5em;
+
+        &:before {
+          content: " • ";
+        }
+        &:first-child:before {
+          content: "";
+        }
+        &:nth-of-type(2n+1) {
+          font-weight: bold;
+          color: #333;
+        } 
+      }
+    }
+    
+  }
+}
+
+#summary {
+
+  h2 {
+    margin-top: .25em;
+    color: #555;
+  }
+
+  blockquote {
+    width: ms(14);
+    //line-height: 1.33em;
+    //margin: 0 0 1em 3em;
+  }
+}
+
+#experience {
+
+  h3 {
+    margin: .5em 0 0 0;
+    padding: 0;
+  }
+
+
+  [itemprop="jobTitle"] {
+    font-weight: bold;
+    display: block;
+  }
+
+  [itemprop="department"] {
+    font-style: italic;
+    display: block;
+  }
+  
+  [itemprop="description"] + p {
+    margin-top: .75em;
+  }
+}
+
+.name-employment-period {
+  display: table;
+  width: 100%;
+
+  .employment-period {
+    display: table-cell;
+    //text-align: right;
+    max-width: ms(9);
+  }
+  [itemprop="name"] {
+    width: ms(14);
+  }
+}
+
+#education {
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+
+  [itemprop="name"] {
+    font-style: italic;
+  }
+}
+
+#additional-information {
+
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  #teaching h3 {
+    margin-top: .3333em;
+    padding-top: 0;
+  }
+
+  h3 {
+    margin-bottom: .3333em;
+
+    + h4 {
+      margin-top: .3333em;
+    }
+  }
+
+  h4 {
+    margin-bottom: .3333em;
+  }
+}
+
+#teaching {
+
+  [itemprop="department"] {
+    font-style: italic;
+    display: inline;
+  }
+
+  [itemprop="name"] {
+    font-weight: bold;
+  }
+
+  .college-date {
+    display: block;
+  }
+}
+
+#organizations {
+
+  [itemprop="founder"],
+  [itemprop="member"] {
+    font-weight: bold;
+  }
+
+  [itemprop="name"] {
+    font-style: italic;
+  }
+}
+
+#presentations, 
+#events,
+#trainings {
+
+  [itemprop="name"] {
+    font-weight: bold;
+  }
+
+  [itemprop="event"],
+  [itemprop="organizer"] {
+    font-style: italic;
+  }
+}
+
+article {
+  margin-bottom: 2em;
+}
+.no-break {
+  white-space: nowrap;
+}

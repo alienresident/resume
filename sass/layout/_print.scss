@@ -1,0 +1,45 @@
+//////////////////////////////
+// LAYOUT: Print Styles
+//////////////////////////////
+
+// Print Styles
+// style sheet for "letter" printing //
+
+@media print {
+
+  @page {
+    size: 8.5in 11in;
+    margin: .5in;
+  }
+  html {
+    @include type-size($body-font-size - 2);
+  }
+  body {
+    @include type-size( 1rem, $body-line-height - .1);
+  }
+  a,
+  a:visited,
+  a:link {
+    color: #444; // to be determined later
+  }
+
+  // force page breaks
+  #experience-page-2,
+  #additional-information {
+    page-break-before: always;
+  }
+
+  #experience-page-2 {
+
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  #additional-information {
+
+    h2 {
+      margin-top: 0;
+    }
+  }
+}

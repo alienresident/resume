@@ -1,0 +1,74 @@
+//////////////////////////////
+// BASE: Base element styles 
+//////////////////////////////
+
+$link-color: #ff2020;
+$link-text-decoration: none;
+$link-border-width: 0;
+$link-border-style: solid;
+$link-border-color: $link-color;
+
+$link-hover-text-decoration: none;
+$link-hover-link-color: #c03;
+$link-hover-border-width: 0 0 1px 0;
+
+
+//////////////////////////////
+// DEFAULT VARIABLES
+//////////////////////////////
+
+$link-color: #369 !default;
+$link-text-decoration: none !default;
+$link-border-width: 0 0 1px 0 !default;
+$link-border-style: dotted !default;
+$link-border-color: $link-color !default;
+/// Visited
+$link-visited-link-color: $link-color !default;
+$link-visited-border-width: $link-border-width !default;
+$link-visited-border-style: $link-border-style !default;
+$link-visited-border-color: $link-border-color !default;
+/// Hover
+$link-hover-text-decoration: underline !default;
+$link-hover-link-color: #c03 !default;
+$link-hover-border-width: $link-border-width !default;
+$link-hover-border-style: $link-border-style !default;
+$link-hover-border-color: $link-hover-link-color !default;
+/// Active
+$link-active-link-color: #900 !default;
+$link-active-border-width: $link-border-width !default;
+$link-active-border-style: $link-border-style !default;
+$link-active-border-color: $link-active-link-color !default;
+/// Logo and Headers
+$headers-link-color: $link-color !default;
+$logo-headers-border-width: false !default;
+$logo-headers-border-style: $link-border-style !default;
+$logo-headers-border-color: $link-active-link-color !default;
+
+a {
+  color: $link-color;
+  text-decoration: $link-text-decoration;
+  @include border-outline(border, $link-border-width, $link-border-style, $link-border-color);
+  &:link,
+  &:visited {
+    color: $link-visited-link-color;
+    @include border-outline(border, $link-visited-border-width, $link-visited-border-style, $link-visited-border-color);
+  }
+  &[href]:hover,
+  &[href]:focus {
+    color: $link-hover-link-color;
+    text-decoration: $link-hover-text-decoration;
+    @include border-outline(border, $link-hover-border-width, $link-hover-border-style, $link-hover-border-color);
+  }
+  &:active {
+    color: $link-active-link-color;
+    @include border-outline(border, $link-active-border-width, $link-active-border-style, $link-active-border-color);
+  } 
+  .logo &, h1 &, h2 &, h3 & {
+    color: $headers-link-color;
+    @include border-outline(border, $logo-headers-border-width, $logo-headers-border-style, $logo-headers-border-color);
+  }
+  &:focus {
+    background: yellow;
+    outline: none;
+  }
+}
