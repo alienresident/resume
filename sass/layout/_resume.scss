@@ -7,28 +7,27 @@ body {
 }
 
 ul {
-    margin: 0;
+  margin: 0;
 
-    @include respond-to('large') {
-        padding: 0 0 0 2em;
-    }
+  @include respond-to("large") {
+    padding: 0 0 0 2em;
+  }
 
-    @include respond-to('small') {
-        padding: 0 0 0 1em;
-    }
-    
+  @include respond-to("small") {
+    padding: 0 0 0 1em;
+  }
+
   li {
     padding: 0 0 .25em 0;
   }
 }
 
 .name-links {
-
-  @include respond-to('large') {
+  @include respond-to("large") {
     display: table;
     width: 100%;
 
-    [itemprop="name"], 
+    [itemprop="name"],
     .personal-links {
       display: table-cell;
     }
@@ -41,11 +40,11 @@ ul {
       max-width: ms(10);
     }
   }
-  
-  @include respond-to('small') {
+
+  @include respond-to("small") {
     display: table;
     width: 100%;
-    
+
     [itemprop="name"] {
       display: table-row;
     }
@@ -59,9 +58,8 @@ ul {
       margin-top: 0;
     }
   }
-  
-  .personal-links {
 
+  .personal-links {
     ul {
       margin: 0;
       padding: 0;
@@ -71,11 +69,9 @@ ul {
       li {
         display: inline-block;
       }
-      
     }
 
-    @include respond-to('small') { 
-
+    @include respond-to("small") {
       ul li {
         width: 32%;
         text-align: center;
@@ -87,7 +83,6 @@ ul {
 }
 
 .address-contact {
-  
   ul {
     margin: 0;
     padding: 0;
@@ -95,13 +90,12 @@ ul {
 }
 
 .address,
-.phone, 
+.phone,
 .email {
   display: inline-block;
 }
 
-@include respond-to('large') {
-
+@include respond-to("large") {
   .email,
   .phone {
     &:before {
@@ -110,13 +104,13 @@ ul {
   }
 }
 
-@include respond-to('small') { 
-
+@include respond-to("small") {
   .email,
   .phone {
     line-height: 1.5em;
     width: 48%;
-  }  
+  }
+
   .phone {
     text-align: right;
     &:before {
@@ -131,19 +125,17 @@ ul {
 }
 
 #summary {
-
   h2 {
     margin-top: .25em;
     color: #555;
   }
 
   blockquote {
-
-    @include respond-to('large') {
+    @include respond-to("large") {
       width: ms(14);
     }
 
-    @include respond-to('small') { 
+    @include respond-to("small") {
       border: none;
       margin: 0 auto;
     }
@@ -152,8 +144,7 @@ ul {
 
 
 .experience-skills {
-  
-  @include respond-to('large') {
+  @include respond-to("large") {
     display: table;
     width: 100%;
 
@@ -164,7 +155,7 @@ ul {
         margin: 1em 0 1em 2em;
         width: ms(14);
       }
-      
+
       ul {
         margin: 1em 0 1.5em 2em;
         width: ms(14);
@@ -173,8 +164,7 @@ ul {
   }
 
   aside {
-
-    @include respond-to('large') {
+    @include respond-to("large") {
       display: table;
       width: 100%;
 
@@ -198,12 +188,8 @@ ul {
       margin: 1em 0 0 .25em;
       padding: 0;
     }
-//
-//    > h3:first-of-type {
-//      padding-top: 2.25em;
-//    }
-    @include respond-to('small') {
 
+    @include respond-to("small") {
       ul {
         margin: 0;
         padding: 0;
@@ -223,17 +209,13 @@ ul {
         &:nth-of-type(2n+1) {
           font-weight: bold;
           color: #333;
-        } 
+        }
       }
     }
-    
   }
 }
 
-
-
 #experience {
-
   h3 {
     margin: .5em 0 0 0;
     padding: 0;
@@ -248,17 +230,14 @@ ul {
     font-style: italic;
     display: block;
   }
-  
+
   [itemprop="description"] + p {
     margin-top: .75em;
   }
 }
 
 .name-employment-period {
-
-
-  @include respond-to('large') {
-    
+  @include respond-to("large") {
     display: table;
     width: 100%;
 
@@ -273,7 +252,6 @@ ul {
 }
 
 #education {
-
   ul {
     padding: 0;
 
@@ -288,7 +266,6 @@ ul {
 }
 
 #additional-information {
-
   h2 {
     margin-top: 1em;
     margin-bottom: 0;
@@ -312,7 +289,6 @@ ul {
 }
 
 #teaching {
-
   [itemprop="department"] {
     font-style: italic;
     display: inline;
@@ -328,7 +304,6 @@ ul {
 }
 
 #organizations {
-
   [itemprop="founder"],
   [itemprop="member"] {
     font-weight: bold;
@@ -339,10 +314,9 @@ ul {
   }
 }
 
-#presentations, 
+#presentations,
 #events,
 #trainings {
-
   [itemprop="name"] {
     font-weight: bold;
   }
@@ -356,6 +330,7 @@ ul {
 article {
   margin-bottom: 2em;
 }
+
 .no-break {
   white-space: nowrap;
 }

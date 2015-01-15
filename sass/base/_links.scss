@@ -7,11 +7,9 @@ $link-text-decoration: none;
 $link-border-width: 0;
 $link-border-style: solid;
 $link-border-color: $link-color;
-
 $link-hover-text-decoration: none;
 $link-hover-link-color: #c03;
 $link-hover-border-width: 0 0 1px 0;
-
 
 //////////////////////////////
 // DEFAULT VARIABLES
@@ -62,8 +60,11 @@ a {
   &:active {
     color: $link-active-link-color;
     @include border-outline(border, $link-active-border-width, $link-active-border-style, $link-active-border-color);
-  } 
-  .logo &, h1 &, h2 &, h3 & {
+  }
+  .logo &,
+  h1 &,
+  h2 &,
+  h3 & {
     color: $headers-link-color;
     @include border-outline(border, $logo-headers-border-width, $logo-headers-border-style, $logo-headers-border-color);
   }

@@ -1,11 +1,9 @@
 $start: -1;
 $end: 20;
-
 $base-size: 1em, 2.225em; //  16px 36px
 //$base-size: 16px, 32px; 
 $ms-base: $base-size;
 $ms-ratio: $major-sixth;
-
 $grey: #333;
 
 // Sizes in pxs
@@ -17,14 +15,13 @@ $grey: #333;
 //@debug ms-list($start, $end, $ms-base, $ms-ratio);
 
 $h1-border-width: false;
-$h1-font-size:  ms(5); // 3.5861em
+$h1-font-size: ms(5); // 3.5861em
 $h1-line-height: 1.2;
 $h1-padding: .25em;
 $h1-padding-pos: top;
 $h1-margin: 0;
 $h1-margin-pos: bottom;
 $h1-color: #555;
-
 $h2-border-width: false;
 $h2-font-size: ms(3);
 $h2-line-height: 1.1em;
@@ -32,8 +29,7 @@ $h2-padding: .25em;
 $h2-padding-pos: top;
 $h2-margin-pos: bottom;
 $h2-margin: .25em;
-$h2-color: #444; 
-
+$h2-color: #444;
 $h3-border-width: false;
 $h3-font-size: ms(2);
 $h3-line-height: 1.1em;
@@ -41,18 +37,16 @@ $h3-padding: .75em;
 $h3-padding-pos: top;
 $h3-margin-pos: bottom;
 $h3-margin: .25em;
-$h3-color: #333; 
-
+$h3-color: #333;
 $h4-border-width: false;
 $h4-font-size: ms(1);
 $h4-line-height: 1.1em;
-$h4-font-bold: true; 
+$h4-font-bold: true;
 $h4-padding: .25em;
 $h4-padding-pos: top;
 $h4-margin-pos: bottom;
 $h4-margin: .25em;
-$h4-color: $grey; 
-
+$h4-color: $grey;
 $h5-border-width: false;
 $h5-font-size: ms(1);
 $h5-line-height: 1.1em;
@@ -60,8 +54,7 @@ $h5-padding: .25em;
 $h5-padding-pos: top;
 $h5-margin-pos: bottom;
 $h5-margin: .25em;
-$h5-color: $grey; 
-
+$h5-color: $grey;
 $h6-border-width: false;
 $h6-font-size: ms(0);
 $h6-line-height: 1.1em;
@@ -71,11 +64,9 @@ $h6-padding-pos: top;
 $h6-margin-pos: bottom;
 $h6-margin: .125em;
 $h6-color: $grey;
-
 $blockquote-padding: .25em 1em;
 $blockquote-margin: 1em 1.5em 1em 0;
-$blockquote-line-height: inherit; 
-
+$blockquote-line-height: inherit;
 $blockquote-border-width: .5em 0 .25em 0;
 $blockquote-border-color: #888;
 $blockquote-border-rgba: rgba($blockquote-border-color,1);
@@ -85,10 +76,8 @@ $blockquote-border-radius: 0;
 $blockquote-color: #444;
 $blockquote-margin: 1em auto;
 $blockquote-padding: .25em 0 .5em .25em;
-
 $li-margin: 0;
 $li-text-indent: 0;
-
 $h1-font-bold: false !default; // normal
 $h1-font-italic: false !default; // normal
 $h1-font-uppercase: false !default; // normal
@@ -97,10 +86,10 @@ $h1-font-size: 2.5em !default;
 $h1-line-height: 1.125em !default;
 $h1-padding: 1em !default;
 $h1-padding-pos: top !default;
-$h1-margin: 0.3em !default;
+$h1-margin: .3em !default;
 $h1-margin-pos: bottom !default;
 $h1-color: #444 !default;
-$h1-border-width: 0 0 0.2em 0 !default; 
+$h1-border-width: 0 0 .2em 0 !default;
 $h1-border-style: solid !default;
 $h1-border-color: #693 !default;
 //// h2
@@ -110,12 +99,12 @@ $h2-font-uppercase: false !default; // normal
 $h2-font-variant: false !default; // normal
 $h2-font-size: 1.875em !default;
 $h2-line-height: 1.5em !default;
-$h2-padding: 0.8333em !default;
+$h2-padding: .8333em !default;
 $h2-padding-pos: top !default;
-$h2-margin: 0.7em !default;
+$h2-margin: .7em !default;
 $h2-margin-pos: bottom !default;
-$h2-color: #555 !default; 
-$h2-border-width: 0 0 0.13333em 0 !default; 
+$h2-color: #555 !default;
+$h2-border-width: 0 0 .13333em 0 !default;
 $h2-border-style: solid !default;
 $h2-border-color: #693 !default;
 //// h3
@@ -127,10 +116,10 @@ $h3-font-size: 1.5625em !default;
 $h3-line-height: 1.4em !default;
 $h3-padding: 1em !default;
 $h3-padding-pos: top !default;
-$h3-margin: 0.7em !default;
+$h3-margin: .7em !default;
 $h3-margin-pos: bottom !default;
 $h3-color: #666 !default;
-$h3-border-width: 0 0 0.1em 0 !default; 
+$h3-border-width: 0 0 .1em 0 !default;
 $h3-border-style: solid !default;
 $h3-border-color: #693 !default;
 //// h4
@@ -144,8 +133,8 @@ $h4-padding: 1em !default;
 $h4-padding-pos: top !default;
 $h4-margin: 1em !default;
 $h4-margin-pos: bottom !default;
-$h4-color: #777 !default; 
-$h4-border-width: false !default; 
+$h4-color: #777 !default;
+$h4-border-width: false !default;
 $h4-border-style: solid !default;
 $h4-border-color: #693 !default;
 //// h5
@@ -160,7 +149,7 @@ $h5-padding-pos: top !default;
 $h5-margin: 0 !default;
 $h5-margin-pos: false !default;
 $h5-color: #888 !default;
-$h5-border-width: false !default; 
+$h5-border-width: false !default;
 $h5-border-style: solid !default;
 $h5-border-color: #693 !default;
 //// h6
@@ -174,17 +163,17 @@ $h6-padding: 1em !default;
 $h6-padding-pos: top !default;
 $h6-margin: 0 !default;
 $h6-margin-pos: false !default;
-$h6-color: #999 !default; 
-$h6-border-width: false !default; 
+$h6-color: #999 !default;
+$h6-border-width: false !default;
 $h6-border-style: solid !default;
 $h6-border-color: #693 !default;
 /// hr 
-$hr-border-width: false !default; 
+$hr-border-width: false !default;
 $hr-border-style: solid !default;
 $hr-border-color: #333 !default;
-$hr-height: 0.1em !default;
+$hr-height: .1em !default;
 $hr-background: #ccc !default;
-$hr-background-rgba: rgba(0,0,0,0.2) !default;
+$hr-background-rgba: rgba(0,0,0,.2) !default;
 /// p, ul, ol, hr, table, form, fieldset
 $element-margin: 1.25em 0 !default;
 /// li
@@ -201,13 +190,13 @@ $blockquote-font-uppercase: false !default; // normal
 $blockquote-font-variant: false !default; // normal
 $blockquote-font-size: 1.25em !default;
 $blockquote-line-height: 1.5em !default;
-$blockquote-letter-spacing: 0.05em !default;
+$blockquote-letter-spacing: .05em !default;
 $blockquote-color: #888 !default;
-$blockquote-border-width: 0.1em 0 0.1em 0 !default;
+$blockquote-border-width: .1em 0 .1em 0 !default;
 $blockquote-border-style: solid !default;
 $blockquote-border-color: #ccc !default;
-$blockquote-border-rgba: rgba(0,0,0,0.2) !default;
-$blockquote-border-radius: 0.25em !default;
+$blockquote-border-rgba: rgba(0,0,0,.2) !default;
+$blockquote-border-radius: .25em !default;
 /// blockquote em
 $blockquote-em-font-bold: false !default; // normal
 $blockquote-em-font-italic: false !default; // normal
@@ -268,15 +257,23 @@ h6 {
   @include border-outline(border, $h6-border-width, $h6-border-style, $h6-border-color);
 }
 
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
-i, em {
+i,
+em {
   font-style: italic;
 }
 
-p, ul, ol, hr, table, form, fieldset {
+p,
+ul,
+ol,
+hr,
+table,
+form,
+fieldset {
   @include margin-padding(margin, $element-margin);
 }
 
