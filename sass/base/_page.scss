@@ -29,7 +29,7 @@ html {
 //    @include type-size($body-font-size - 2); // 14px
 //  }
   @include respond-to('small') {
-    @include type-size($body-font-size - 3); // 13px
+    @include type-size($body-font-size - 4); // 13px
   }
 //  @include respond-to('mobile content') {
 //    @include type-size($body-font-size - 4); // 12px
@@ -74,45 +74,13 @@ body {
 }
 
 .wrapper {
-  
-}
-#content {
-//  max-width: ms(14);
-//  padding: 1em;
-//  //border:solid;
-//  @include respond-to('large') {
-//    float: left;
-//    width: 60%;
-//  }
-//  @include respond-to('extra wide content') {
-//    float: left;
-//    width: 60%;
-//  }
-//  @include respond-to('wide content') {
-//    float: left;
-//    width: 60%;
-//  }
-//  @include respond-to('medium wide content') {
-//    float: left;
-//    width: 60%;
-//  }
-//  @include respond-to('medium content') {
-//    float: left;
-//    width: 60%;
-//  }
-//  @include respond-to('medium only content') {
-//  }
-//  @include respond-to('small') {
-//  }
-//  @include respond-to('mobile content') {
-//  }
-}
-.wrapper {
-
-  //border:solid;
+  margin: 0 auto;
   @include respond-to('large') {
     width: ms(15);
-    margin: 0 auto;
+  }
+  
+  @include respond-to('small') { 
+    padding: 0 .5em;
   }
 //  @include respond-to('extra wide content') {
 //    width: 100%;
@@ -129,46 +97,4 @@ body {
 //  > header {
 //    padding: 0 1em;
 //  }
-}
-#comments {  
-//  background: nth($black, 5);
-//  padding: 0 1em;
-//  @include respond-to('large') {
-//    float: left;
-//    width: 40%;
-//    max-width: ms(12);
-//    @include type-size($body-font-size - 1, $body-line-height - .1); // 16px
-//  }
-//  @include respond-to('extra wide content') {
-//    float: left;
-//    width: 40%;
-//    max-width: ms(12);
-//    @include type-size($body-font-size + 1, $body-line-height - .1); // 16px
-//  }
-//  @include respond-to('wide content') {
-//    float: left;
-//    width: 40%;
-//    max-width: ms(12);
-//    @include type-size($body-font-size, $body-line-height - .1); // 16px
-//  }
-//  @include respond-to('medium wide content') {
-//    float: left;
-//    width: 40%;
-//    max-width: ms(12);
-//    @include type-size($body-font-size - 2, $body-line-height - .1); // 16px
-//  }
-//  @include respond-to('medium content') {
-//    float: left;
-//    width: 40%;
-//    max-width: ms(12);
-//    @include type-size($body-font-size - 3, $body-line-height - .1); // 16px
-//  }
-//  @include respond-to('medium only content') {
-//    max-width: ms(14);
-//    @include type-size($body-font-size - 3, $body-line-height - .1); // 16px
-//  }
-}
-
-.wrapper {
-  margin: 0 auto;
 }
