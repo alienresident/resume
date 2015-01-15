@@ -2,23 +2,10 @@
 // LAYOUT: Resume Layout Styles
 //////////////////////////////
 
-//h2 {
-//  margin-bottom: .25em;
-//  margin-top: .5em;
-//  color: #555;
-//}
-//
-//h3 {
-//  color: #333;
-//}
-//
-//h4  {
-//  color: #222;
-//}
-
 body {
   color: #222;
 }
+
 ul {
     margin: 0;
     padding: 0 0 0 2em;
@@ -44,8 +31,25 @@ ul {
     }
 
     .personal-links {
-      //text-align: right;
       max-width: ms(10);
+    }
+  }
+  
+  @include respond-to('small') {
+    display: table;
+    width: 100%;
+    
+    [itemprop="name"] {
+      display: table-row;
+    }
+
+    .personal-links {
+      display: table-header-group;
+    }
+
+    h1 {
+      padding-top: 0;
+      margin-top: 0;
     }
   }
   
@@ -58,15 +62,18 @@ ul {
       list-style: none;
 
       li {
-        display: inline;
+        display: inline-block;
+      }
+      
+    }
 
-        &:before {
-          content: " • ";
-        }
+    @include respond-to('small') { 
 
-        &:first-child:before {
-          content: "";
-        } 
+      ul li {
+        width: 32%;
+        text-align: center;
+        font-size: 1.2em;
+        padding: .5em .25em 0 .25em;
       }
     }
   }
@@ -79,21 +86,61 @@ ul {
     padding: 0;
   }
 }
+
 .address,
 .phone, 
 .email {
-  display: inline;
+  display: inline-block;
 }
 
-.email,
-.phone {
-  &:before {
-    content: " • ";
+@include respond-to('large') {
+
+  .email,
+  .phone {
+    &:before {
+      content: " • ";
+    }
+  }
+}
+
+@include respond-to('small') { 
+
+  .email,
+  .phone {
+    line-height: 1.5em;
+    width: 48%;
+  }  
+  .phone {
+    text-align: right;
+    &:before {
+      //content: " • ";
+      //float: right;
+    }
   }
 }
 
 .address p {
   margin-top: 0;
+}
+
+#summary {
+
+  h2 {
+    margin-top: .25em;
+    color: #555;
+  }
+
+  blockquote {
+
+    @include respond-to('large') {
+      width: ms(14);
+    }
+
+    @include respond-to('small') { 
+      border: none;
+      margin: 0 auto;
+    }
+  }
 }
 
 
@@ -102,12 +149,6 @@ ul {
   @include respond-to('large') {
     display: table;
     width: 100%;
-
-    section, 
-    aside {
-      //display: table-cell;
-      //vertical-align: top;
-    }
 
     section {
       max-width: ms(15);
@@ -162,7 +203,7 @@ ul {
       }
 
       li {
-        //display: inline;
+        display: inline;
         list-style-type: none;
         line-height: 1.5em;
 
@@ -182,19 +223,7 @@ ul {
   }
 }
 
-#summary {
 
-  h2 {
-    margin-top: .25em;
-    color: #555;
-  }
-
-  blockquote {
-    width: ms(14);
-    //line-height: 1.33em;
-    //margin: 0 0 1em 3em;
-  }
-}
 
 #experience {
 
@@ -202,7 +231,6 @@ ul {
     margin: .5em 0 0 0;
     padding: 0;
   }
-
 
   [itemprop="jobTitle"] {
     font-weight: bold;
@@ -220,16 +248,20 @@ ul {
 }
 
 .name-employment-period {
-  display: table;
-  width: 100%;
 
-  .employment-period {
-    display: table-cell;
-    //text-align: right;
-    max-width: ms(9);
-  }
-  [itemprop="name"] {
-    width: ms(14);
+
+  @include respond-to('large') {
+    
+    display: table;
+    width: 100%;
+
+    .employment-period {
+      display: table-cell;
+      max-width: ms(9);
+    }
+    [itemprop="name"] {
+      width: ms(14);
+    }
   }
 }
 
