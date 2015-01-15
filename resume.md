@@ -120,7 +120,6 @@ January 2000–May 2001
 * **Co-Organizer**:  DrupalCamp NYC 9 & 10 *NYC  Drupal Users Group*.   
 * **Member**: *IxDA* • *NYC UXPA* • *Gotham Sass Meetup* • *NYC Drupal Users Group* • *Agile Experience Design Meetup* • *Type Directors Club* 
 
-
 ### Selected Presentations, Events, and Trainings
 
 ##### Presentations
