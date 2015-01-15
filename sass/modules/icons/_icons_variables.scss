@@ -1,0 +1,20 @@
+//////////////////////////////
+// VARIABLES: For Modules specific styles 
+//////////////////////////////
+
+$icon__font-name: "icomoon";
+$icon__font-file-name: social-icons;
+$icon__inline-fonts: true;
+
+$icon__font-name: false !default;
+$icon__font-file-name: false !default;
+$icon__inline-fonts: false !default;
+$icon__font-weight: normal !default;
+$icon__font-style: normal !default;
+
+$external-links-icons: ( 
+  behance: "\e600", 
+  github: "\e601", 
+  twitter: "\e602", 
+  linkedin: "\e603"
+);
