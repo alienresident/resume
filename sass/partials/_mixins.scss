@@ -53,3 +53,48 @@
   @if $uppercase { text-transform: uppercase; }
   @if $variant { font-variant: small-caps; }
 }
+
+@mixin web-font-face($font-name, $font-file-name, $font-weight: normal, $font-style: normal, $inline-fonts: false) { 
+  @if $inline-fonts and $font-name {
+  @include font-face(
+    $font-name, 
+    inline-font-files(
+      "#{$font-file-name}.woff", woff, 
+      "#{$font-file-name}.ttf", truetype, 
+      "#{$font-file-name}.svg", svg
+    ), 
+    "#{$font-file-name}.eot",  
+    $font-weight, 
+    $font-style
+  );
+  }
+  @else if $font-name { 
+    @include font-face(
+      $font-name, 
+      font-files(
+        "#{$font-file-name}.woff", woff, 
+        "#{$font-file-name}.ttf", truetype,
+        "#{$font-file-name}.svg##{$font-name}", svg
+      ), 
+      "#{$font-file-name}.eot", 
+      $font-weight, 
+      $font-style
+    );
+  }
+}
+
+@mixin web-font-family($font-name: false) {
+  @if $font-name { font-family: $font-name; }
+}
+
+@mixin generate-icons($icons, $pseudo: before, $prefix: '', $suffix: '', $extend: '') {
+  @each $class, $unicode-character in $icons {
+    #{$prefix}#{$class}#{$suffix}:#{$pseudo} {
+      content:  $unicode-character;
+      @if ($extend != '') {
+        @extend %#{$extend};
+        //@warn "$extend is #{$extend}"
+      } 
+    }
+  }
+}
