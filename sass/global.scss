@@ -1,10 +1,14 @@
+@charset "UTF-8";
+
 @import "normalize";
 @import "breakpoint";
 @import 'modular-scale';
+@import "compass/css3/font-face";
 
 @import "partials/_mixins";
 @import "layout/_breakpoints";
 @import "modules/webfont/_webfont";
+@import "modules/icons/_icons";
 
 @import "base/_typography";
 @import "base/_links";
