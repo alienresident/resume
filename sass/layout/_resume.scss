@@ -8,8 +8,15 @@ body {
 
 ul {
     margin: 0;
-    padding: 0 0 0 2em;
 
+    @include respond-to('large') {
+        padding: 0 0 0 2em;
+    }
+
+    @include respond-to('small') {
+        padding: 0 0 0 1em;
+    }
+    
   li {
     padding: 0 0 .25em 0;
   }

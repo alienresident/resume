@@ -80,7 +80,7 @@ body {
   }
   
   @include respond-to('small') { 
-    padding: 0 .5em;
+    padding: 0 1em;
   }
 //  @include respond-to('extra wide content') {
 //    width: 100%;
