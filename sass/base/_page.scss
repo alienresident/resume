@@ -13,88 +13,49 @@ html {
   @include respond-to("large") {
     @include type-size($body-font-size); // 16px
   }
-  //  @include respond-to('extra wide content') {
-  //    @include type-size($body-font-size + 5); // 21px
-  //  }
-  //  @include respond-to('wide content') {
-  //    @include type-size($body-font-size + 2); // 18px
-  //  }
-  //  @include respond-to('medium wide content') {
-  //    @include type-size($body-font-size - 1); // 15px
-  //  }
+
+  @include respond-to('x-large') {
+    @include type-size($body-font-size + 2); // 18px
+  }
+
+  @include respond-to('xx-large') {
+    @include type-size($body-font-size + 5); // 21px
+  }
+
   @include respond-to("medium") {
     @include type-size($body-font-size - 2); // 14px
   }
-  //  @include respond-to('medium only content') {
-  //    @include type-size($body-font-size - 2); // 14px
-  //  }
+
   @include respond-to("small") {
-    @include type-size($body-font-size - 4); // 13px
+    @include type-size($body-font-size - 4); // 12px
   }
-  //  @include respond-to('mobile content') {
-  //    @include type-size($body-font-size - 4); // 12px
-  //  }
 }
+
 body {
   @include respond-to("large") {
     @include type-size( 1rem, $body-line-height); // 16px/1.5em 
-    //color: Blue;
   }
-  //  @include respond-to('extra wide content') {
-  //    @include type-size( 1rem, $body-line-height + .2); // 21px/1.7em
-  //    //color: FireBrick;
-  //  }
-  //  @include respond-to('wide content') {
-  //    @include type-size( 1rem, $body-line-height + .16666); // 18px/1.6666em
-  //    //color: Purple;
-  //  }
-  //  @include respond-to('medium wide content') {
-  //    @include type-size( 1rem, $body-line-height - .1); // 15px/1.4em
-  //    //color: Green;
-  //  }
+
+  @include respond-to("x-large") {
+    @include type-size( 1rem, $body-line-height + .16666); // 18px/1.6666em
+  }
+
+  @include respond-to("xx-large") {
+    @include type-size( 1rem, $body-line-height + .16666); // 21px/1.6666em
+  }
+
   @include respond-to("medium") {
     @include type-size( 1rem, $body-line-height - .1); // 14px/1.4em
-    //color: Red;
   }
-  //  @include respond-to('medium only content') {
-  //    @include type-size( 1rem, $body-line-height - .1); // 14px/1.4em
-  //    //color: Red;
-  //    word-spacing: -0.085em;
-  //  }
+
   @include respond-to("small") {
-    @include type-size( 1rem, $body-line-height - .1); // 13px/1.4em
-    //color: ForestGreen;
+    @include type-size( 1rem, $body-line-height - .1); // 12px/1.4em
     word-spacing: -.085em;
   }
-  //  @include respond-to('mobile content') {
-  //    @include type-size( 1rem, $body-line-height - .16666); // 12px/1.333em
-  //    //color: Brown;
-  //    word-spacing: -0.085em;
-  //  }
 }
 
 .wrapper {
   margin: 0 auto;
-  @include respond-to("large") {
-    width: ms(15);
-  }
-
-  @include respond-to("small") {
-    padding: 0 1em;
-  }
-  //  @include respond-to('extra wide content') {
-  //    width: 100%;
-  //  }
-  //  @include respond-to('wide content') {
-  //    width: 100%;
-  //  }
-  //  @include respond-to('medium wide content') {
-  //    width: 100%;
-  //  }
-  //  @include respond-to('medium content') {
-  //    width: 100%;
-  //  }
-  //  > header {
-  //    padding: 0 1em;
-  //  }
+  max-width: ms(15);
+  padding: 0 1em;
 }
