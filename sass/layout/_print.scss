@@ -8,10 +8,10 @@
 @media print {
   @page {
     size: 8.5in 11in;
-    margin: .5in;
+    margin: .25in;
   }
   html {
-    @include type-size($body-font-size - 2);
+    @include type-size($body-font-size - 4);
   }
   body {
     @include type-size( 1rem, $body-line-height - .1);
@@ -22,21 +22,53 @@
     color: #444; // to be determined later
   }
 
-  // force page breaks
-  #experience-page-2,
-  #additional-information {
+  h1 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+    // force page breaks
+  .education {
     page-break-before: always;
   }
 
-  #experience-page-2 {
+  .experience.page-2 {
     h3 {
       margin-top: 0;
     }
   }
 
-  #additional-information {
+  .experience-skills {
+    display: table;
+    width: 100%;
+
+    .ux-skills {
+      display: table-cell;
+      width: ms(13);
+    }
+
+    .tech-skills {
+      display: table-cell;
+      max-width: ms(10);
+    }
+  }
+
+  h2 {
+    margin-top: .25em;
+    padding-top: 0;
+  }
+
+  .additional-information {
     h2 {
+      margin-top: .25em;
+    }
+
+    h3 {
       margin-top: 0;
+    }
+
+    h4 {
+      margin-top: .5em;
     }
   }
 }
