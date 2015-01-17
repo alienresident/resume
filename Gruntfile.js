@@ -56,7 +56,7 @@ module.exports = function(grunt) {
           environment: 'production',
           outputStyle: 'compressed',
           config: 'config.rb',
-          sourcemap: true
+          sourcemap: false
         }
       },
       dev: {
