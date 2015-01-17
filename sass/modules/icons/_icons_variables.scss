@@ -11,6 +11,12 @@ $icon__font-file-name: false !default;
 $icon__inline-fonts: false !default;
 $icon__font-weight: normal !default;
 $icon__font-style: normal !default;
+$icon__font-formats: (
+  woff,
+  ttf,
+  svg,
+  eot
+);
 
 $external-links-icons: ( 
   behance: "\e600", 
