@@ -13,6 +13,18 @@ ul {
     padding: 0 0 0 2em;
   }
 
+  @include respond-to("x-large") {
+    padding: 0 0 0 2em;
+  }
+
+  @include respond-to("xx-large") {
+    padding: 0 0 0 2em;
+  }
+
+  @include respond-to("medium") {
+    padding: 0 0 0 1em;
+  }
+  
   @include respond-to("small") {
     padding: 0 0 0 1em;
   }
@@ -27,6 +39,10 @@ ul {
     display: table;
     width: 100%;
 
+    h1 {
+      margin-top: 0;
+    }
+
     [itemprop="name"],
     .personal-links {
       display: table-cell;
@@ -38,6 +54,73 @@ ul {
 
     .personal-links {
       max-width: ms(10);
+    }
+  }
+
+  @include respond-to("x-large") {
+    display: table;
+    width: 100%;
+
+    h1 {
+      margin-top: 0;
+    }
+
+    [itemprop="name"],
+    .personal-links {
+      display: table-cell;
+    }
+
+    [itemprop="name"] {
+      width: ms(13);
+    }
+
+    .personal-links {
+      max-width: ms(10);
+    }
+  }
+
+  @include respond-to("xx-large") {
+    display: table;
+    width: 100%;
+
+    h1 {
+      margin-top: 0;
+    }
+
+    [itemprop="name"],
+    .personal-links {
+      display: table-cell;
+    }
+
+    [itemprop="name"] {
+      width: ms(13);
+    }
+
+    .personal-links {
+      max-width: ms(10);
+    }
+  }
+
+  @include respond-to("medium") {
+    display: table;
+    width: 100%;
+
+    h1 {
+      margin-top: 0;
+    }
+
+    [itemprop="name"],
+    .personal-links {
+      display: table-cell;
+    }
+
+    [itemprop="name"] {
+      width: ms(12);
+    }
+
+    .personal-links {
+      max-width: ms(10);
+      text-align: right;
     }
   }
 
@@ -104,7 +187,39 @@ ul {
   }
 }
 
+@include respond-to("x-large") {
+  .email,
+  .phone {
+    &:before {
+      content: " • ";
+    }
+  }
+}
+
+@include respond-to("xx-large") {
+  .email,
+  .phone {
+    &:before {
+      content: " • ";
+    }
+  }
+}
+
+
+@include respond-to("medium") {
+  .email,
+  .phone {
+    &:before {
+      content: " • ";
+    }
+  }
+}
+
 @include respond-to("small") {
+  .address {
+    display: block;
+  }
+
   .email,
   .phone {
     line-height: 1.5em;
@@ -113,10 +228,6 @@ ul {
 
   .phone {
     text-align: right;
-    &:before {
-      //content: " • ";
-      //float: right;
-    }
   }
 }
 
@@ -124,7 +235,7 @@ ul {
   margin-top: 0;
 }
 
-#summary {
+.summary {
   h2 {
     margin-top: .25em;
     color: #555;
@@ -132,38 +243,61 @@ ul {
 
   blockquote {
     @include respond-to("large") {
-      width: ms(14);
+      max-width: (ms(14) + 1.5em);
+    }
+
+    @include respond-to("x-large") {
+     max-width: (ms(14) + 1.5em);
+    }
+
+    @include respond-to("xx-large") {
+     max-width: (ms(14) + 1.5em);
+    }
+
+    @include respond-to("medium") {
+      border: none;
+      margin: 0 auto;
+      max-width: (ms(14) + 1.5em);
     }
 
     @include respond-to("small") {
       border: none;
       margin: 0 auto;
+      max-width: (ms(14) + 1em);
     }
+    
   }
 }
 
 
 .experience-skills {
-  @include respond-to("large") {
-    display: table;
-    width: 100%;
 
     section {
       max-width: ms(15);
 
       p {
         margin: 1em 0 1em 2em;
-        width: ms(14);
+        max-width: ms(14);
       }
 
       ul {
         margin: 1em 0 1.5em 2em;
-        width: ms(14);
+        max-width: ms(14);
       }
     }
-  }
 
   aside {
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: .5em;
+    }
+
+    ul {
+      margin: 1em 0 0 .25em;
+      padding: 0;
+    }
+
     @include respond-to("large") {
       display: table;
       width: 100%;
@@ -178,44 +312,40 @@ ul {
         max-width: ms(10);
       }
     }
+    
+    @include respond-to("x-large") {
+      display: table;
+      width: 100%;
 
-    h3 {
-      margin-top: 0;
-      margin-bottom: .5em;
-    }
-
-    ul {
-      margin: 1em 0 0 .25em;
-      padding: 0;
-    }
-
-    @include respond-to("small") {
-      ul {
-        margin: 0;
-        padding: 0;
+      .ux-skills {
+        display: table-cell;
+        width: ms(13);
       }
 
-      li {
-        display: inline;
-        list-style-type: none;
-        line-height: 1.5em;
+      .tech-skills {
+        display: table-cell;
+        max-width: ms(10);
+      }
+    }
+    
+    @include respond-to("xx-large") {
+      display: table;
+      width: 100%;
 
-        &:before {
-          content: " • ";
-        }
-        &:first-child:before {
-          content: "";
-        }
-        &:nth-of-type(2n+1) {
-          font-weight: bold;
-          color: #333;
-        }
+      .ux-skills {
+        display: table-cell;
+        width: ms(13);
+      }
+
+      .tech-skills {
+        display: table-cell;
+        max-width: ms(10);
       }
     }
   }
 }
 
-#experience {
+.experience {
   h3 {
     margin: .5em 0 0 0;
     padding: 0;
@@ -231,13 +361,48 @@ ul {
     display: block;
   }
 
+  .wrap-line [itemprop="department"] {
+    display: inline;
+  }
+
   [itemprop="description"] + p {
     margin-top: .75em;
   }
 }
 
 .name-employment-period {
+
+  &:first-of-type + p {
+    margin-top: .5em;
+  }
+
   @include respond-to("large") {
+    display: table;
+    width: 100%;
+
+    .employment-period {
+      display: table-cell;
+      max-width: ms(9);
+    }
+    [itemprop="name"] {
+      width: ms(14);
+    }
+  }
+
+  @include respond-to("x-large") {
+    display: table;
+    width: 100%;
+
+    .employment-period {
+      display: table-cell;
+      max-width: ms(9);
+    }
+    [itemprop="name"] {
+      width: ms(14);
+    }
+  }
+  
+  @include respond-to("xx-large") {
     display: table;
     width: 100%;
 
@@ -251,7 +416,7 @@ ul {
   }
 }
 
-#education {
+.education {
   ul {
     padding: 0;
 
@@ -260,35 +425,42 @@ ul {
     }
   }
 
+  [itemprop="award"] {
+    font-weight: bold;
+  }
+
   [itemprop="name"] {
     font-style: italic;
   }
 }
 
-#additional-information {
+.additional-information {
   h2 {
     margin-top: 1em;
     margin-bottom: 0;
   }
-  #teaching h3 {
+  .teaching h3 {
     margin-top: .3333em;
     padding-top: 0;
+    margin-bottom: -.3333em;
   }
 
   h3 {
     margin-bottom: .3333em;
 
-    + h4 {
-      margin-top: .3333em;
-    }
   }
 
   h4 {
     margin-bottom: .3333em;
   }
+  
+  .presentations h4 {
+    margin-top: 0;
+  }
+  
 }
 
-#teaching {
+.teaching {
   [itemprop="department"] {
     font-style: italic;
     display: inline;
@@ -303,7 +475,7 @@ ul {
   }
 }
 
-#organizations {
+.organizations {
   [itemprop="founder"],
   [itemprop="member"] {
     font-weight: bold;
@@ -314,9 +486,9 @@ ul {
   }
 }
 
-#presentations,
-#events,
-#trainings {
+.presentations,
+.events,
+.trainings {
   [itemprop="name"] {
     font-weight: bold;
   }
@@ -333,4 +505,8 @@ article {
 
 .no-break {
   white-space: nowrap;
+}
+
+.wrap-line {
+  display: block;
 }
