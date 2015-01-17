@@ -59,11 +59,9 @@
   @include font-face(
     $font-name, 
     inline-font-files(
-      "#{$font-file-name}.woff", woff, 
-      "#{$font-file-name}.ttf", truetype, 
-      "#{$font-file-name}.svg", svg
+      "#{$font-file-name}.woff", woff
     ), 
-    "#{$font-file-name}.eot",  
+    false,  
     $font-weight, 
     $font-style
   );
@@ -90,10 +88,9 @@
 @mixin generate-icons($icons, $pseudo: before, $prefix: '', $suffix: '', $extend: '') {
   @each $class, $unicode-character in $icons {
     #{$prefix}#{$class}#{$suffix}:#{$pseudo} {
-      content:  $unicode-character;
+      content: $unicode-character;
       @if ($extend != '') {
         @extend %#{$extend};
-        //@warn "$extend is #{$extend}"
       } 
     }
   }
