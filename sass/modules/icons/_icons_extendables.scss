@@ -11,10 +11,10 @@
   font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-%ico-font-icons {  
+%ico-font-icons {
   @extend %ico-font-base;
   margin: 0 0 0 .125em;
   padding: .25em;
