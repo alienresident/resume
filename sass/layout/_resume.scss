@@ -24,7 +24,7 @@ ul {
   @include respond-to("medium") {
     padding: 0 0 0 1em;
   }
-  
+
   @include respond-to("small") {
     padding: 0 0 0 1em;
   }
@@ -247,11 +247,11 @@ ul {
     }
 
     @include respond-to("x-large") {
-     max-width: (ms(14) + 1.5em);
+      max-width: (ms(14) + 1.5em);
     }
 
     @include respond-to("xx-large") {
-     max-width: (ms(14) + 1.5em);
+      max-width: (ms(14) + 1.5em);
     }
 
     @include respond-to("medium") {
@@ -265,29 +265,26 @@ ul {
       margin: 0 auto;
       max-width: (ms(14) + 1em);
     }
-    
   }
 }
 
 
 .experience-skills {
+  section {
+    max-width: ms(15);
 
-    section {
-      max-width: ms(15);
-
-      p {
-        margin: 1em 0 1em 2em;
-        max-width: ms(14);
-      }
-
-      ul {
-        margin: 1em 0 1.5em 2em;
-        max-width: ms(14);
-      }
+    p {
+      margin: 1em 0;
+      max-width: ms(14);
     }
 
-  aside {
+    ul {
+      margin: 1em 0 1.5em .475em;
+      max-width: ms(14);
+    }
+  }
 
+  aside {
     h3 {
       margin-top: 0;
       margin-bottom: .5em;
@@ -312,7 +309,7 @@ ul {
         max-width: ms(10);
       }
     }
-    
+
     @include respond-to("x-large") {
       display: table;
       width: 100%;
@@ -327,7 +324,7 @@ ul {
         max-width: ms(10);
       }
     }
-    
+
     @include respond-to("xx-large") {
       display: table;
       width: 100%;
@@ -351,7 +348,7 @@ ul {
     padding: 0;
   }
 
-  [itemprop="jobTitle"] {
+  [itemprop="roleName"] {
     font-weight: bold;
     display: block;
   }
@@ -371,7 +368,6 @@ ul {
 }
 
 .name-employment-period {
-
   &:first-of-type + p {
     margin-top: .5em;
   }
@@ -401,7 +397,7 @@ ul {
       width: ms(14);
     }
   }
-  
+
   @include respond-to("xx-large") {
     display: table;
     width: 100%;
@@ -429,7 +425,7 @@ ul {
     font-weight: bold;
   }
 
-  [itemprop="name"] {
+  span[itemprop="name"] {
     font-style: italic;
   }
 }
@@ -447,17 +443,15 @@ ul {
 
   h3 {
     margin-bottom: .3333em;
-
   }
 
   h4 {
     margin-bottom: .3333em;
   }
-  
+
   .presentations h4 {
     margin-top: 0;
   }
-  
 }
 
 .teaching {
@@ -489,13 +483,22 @@ ul {
 .presentations,
 .events,
 .trainings {
-  [itemprop="name"] {
+  [itemprop="subEvent"],
+  span[itemprop="name" ] {
     font-weight: bold;
   }
 
   [itemprop="event"],
   [itemprop="organizer"] {
     font-style: italic;
+  }
+}
+
+.presentations,
+.trainings {
+  span[itemprop="name" ] {
+    font-style: italic;
+    font-weight: normal;
   }
 }
 
