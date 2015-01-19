@@ -14,11 +14,11 @@ html {
     @include type-size($body-font-size); // 16px
   }
 
-  @include respond-to('x-large') {
+  @include respond-to("x-large") {
     @include type-size($body-font-size + 2); // 18px
   }
 
-  @include respond-to('xx-large') {
+  @include respond-to("xx-large") {
     @include type-size($body-font-size + 5); // 21px
   }
 
