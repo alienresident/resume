@@ -25,6 +25,7 @@
     "grunt-contrib-connect": "^0.7.1",
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-contrib-concat": "~0.4.0",
-    "csscomb": "~3.0.4"
+    "csscomb": "~3.0.4",
+    "grunt-contrib-htmlmin": "~0.3.0"
   }
 }
