@@ -7,4 +7,4 @@
 
 @include web-font-face($icon__font-name, $icon__font-file-name, $icon__font-weight, $icon__font-style, $icon__inline-fonts);
 
-@include generate-icons($external-links-icons, before, '[href*="', '"]', 'ico-font-icons');
+@include generate-icons($external-links-icons, before, "[href*=\"", "\"]", "ico-font-icons");
