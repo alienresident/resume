@@ -61,7 +61,6 @@ a {
     color: $link-active-link-color;
     @include border-outline(border, $link-active-border-width, $link-active-border-style, $link-active-border-color);
   }
-  .logo &,
   h1 &,
   h2 &,
   h3 & {
