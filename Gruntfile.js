@@ -85,9 +85,26 @@ module.exports = function(grunt) {
         src: 'js/resume.scripts.js',
         dest: 'js/resume.scripts.min.js'
       }
+    },
+
+    htmlmin: {                                     // Task
+      dist: {                                      // Target
+        options: {                                 // Target options
+          removeComments: true,
+          collapseWhitespace: true
+        },
+        files: {                                   // Dictionary of files
+          'index.html': 'src/index.html'
+        }
+      },
+      dev: {                                       // Another target
+        files: {
+          'index.html': 'src/index.html'
+        }
+      }
     }
 
   });
 
-  grunt.registerTask('default', ['connect', 'watch']);
+  grunt.registerTask('default', ['connect', 'watch', 'htmlmin']);
 };
