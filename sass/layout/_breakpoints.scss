@@ -5,8 +5,8 @@
 // https://github.com/Team-Sass/breakpoint/wiki/Respond-To
 $breakpoint-to-ems: true;
 
-$breakpoints: add-breakpoint("xx-large", (1281px));
-$breakpoints: add-breakpoint("x-large", (1024px 1280px));
-$breakpoints: add-breakpoint("large", (801px 1024px, 'no-query' true));
+$breakpoints: add-breakpoint("xx-large", (1441px));
+$breakpoints: add-breakpoint("x-large", (1281px 1440px));
+$breakpoints: add-breakpoint("large", (801px 1280px, 'no-query' true));
 $breakpoints: add-breakpoint("medium", (561px 800px));
 $breakpoints: add-breakpoint("small", (240px 560px));
