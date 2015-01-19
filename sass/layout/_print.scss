@@ -11,7 +11,7 @@
     margin: .25in;
   }
   html {
-    @include type-size($body-font-size - 4);
+    @include type-size($body-font-size - 5);
   }
   body {
     @include type-size( 1rem, $body-line-height - .1);
@@ -19,7 +19,7 @@
   a,
   a:visited,
   a:link {
-    color: #444; // to be determined later
+    //color: #444; // to be determined later
   }
 
   h1 {
@@ -27,14 +27,17 @@
     padding-top: 0;
   }
 
-    // force page breaks
+  // force page breaks
   .education {
-    page-break-before: always;
+    //page-break-before: always;
   }
 
   .experience.page-2 {
+    page-break-before: always;
+    padding-top: 1em;
+
     h3 {
-      margin-top: 0;
+      margin-top: 1em;
     }
   }
 
@@ -59,16 +62,22 @@
   }
 
   .additional-information {
+    page-break-before: always;
+    padding-top: 1em;
+
     h2 {
-      margin-top: .25em;
+      margin-top: 1em;
+      margin-bottom: .75em;
     }
 
     h3 {
-      margin-top: 0;
+      margin-top: 1em;
+      margin-bottom: .75em;
     }
 
     h4 {
-      margin-top: .5em;
+      margin-top: 1em;
+      margin-bottom: .75em;
     }
   }
 }
