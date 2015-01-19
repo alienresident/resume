@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "svn",
-    "url": "https://source.sakaiproject.org/svn/reference/trunk/library/src/webapp/skin/morpheus-master"
+    "type": "git",
+    "url": "https://github.com/alienresident/resume"
   },
   "author": "Mark Reilly",
   "copyright": "2015",
