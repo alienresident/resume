@@ -87,17 +87,17 @@ module.exports = function(grunt) {
       }
     },
 
-    htmlmin: {                                     // Task
-      dist: {                                      // Target
-        options: {                                 // Target options
+    htmlmin: {  // Task
+      dist: {  // Target
+        options: {  // Target options
           removeComments: true,
           collapseWhitespace: true
         },
-        files: {                                   // Dictionary of files
+        files: {  // Dictionary of files
           'index.html': 'src/index.html'
         }
       },
-      dev: {                                       // Another target
+      dev: {  // Another target
         files: {
           'index.html': 'src/index.html'
         }
