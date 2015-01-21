@@ -28,13 +28,8 @@
   }
 
   // force page breaks
-  .education {
-    //page-break-before: always;
-  }
-
   .experience.page-2 {
     page-break-before: always;
-    padding-top: 1em;
 
     h3 {
       margin-top: 1em;
@@ -60,10 +55,10 @@
     margin-top: .25em;
     padding-top: 0;
   }
-
+  
+  // force page breaks
   .additional-information {
     page-break-before: always;
-    padding-top: 1em;
 
     h2 {
       margin-top: 1em;
