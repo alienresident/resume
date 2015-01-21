@@ -8,7 +8,7 @@
 @media print {
   @page {
     size: 8.5in 11in;
-    margin: .25in;
+    margin: .5in .25in .25in .25in;
   }
   html {
     @include type-size($body-font-size - 5);
@@ -52,7 +52,7 @@
 
     .tech-skills {
       display: table-cell;
-      max-width: ms(10);
+      max-width: ms(11);
     }
   }
 
