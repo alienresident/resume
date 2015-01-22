@@ -177,6 +177,7 @@ ul {
 .phone,
 .email {
   display: inline-block;
+  padding: 0 .125em;
 }
 
 @include respond-to("large") {
