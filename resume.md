@@ -125,8 +125,8 @@ January 2000–May 2001
 ##### Presentations
 * **MediaCommons 2.0** at *[Digital Library Federation Forum](http://old.diglib.org/forums/spring2009/)* — 5th May, 2009
 * **Fixing Broken User Experience** *NYU ITS All Hands Meeting* – 21st September, 2012
-* [**Rapid Protoyping Techniques**](http://i5.nyu.edu/~mar22/torchtech-ux-breakfast/) *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014 
-* [**Sakai: Meet MORPHEUS**](http://i5.nyu.edu/~mar22/sakai/open-apereo/) at [*Open Apereo 2014*](http://lanyrd.com/2014/apereo/sczzxw/) — 2nd June, 2014 
+* [**Rapid Protoyping Techniques**](http://markreilly.com/examples/torchtech-ux-breakfast/) *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014 
+* [**Sakai: Meet MORPHEUS**](http://markreilly.com/examples/sakai/open-apereo/) at [*Open Apereo 2014*](http://lanyrd.com/2014/apereo/sczzxw/) — 2nd June, 2014 
 * [**Beyond Putting Lipstick on the Pig**](http://i5.nyu.edu/~mar22/sakai/edui/) at [*EdUI 2014*](http://eduiconf.org/sessions/edui_pig/) — 30th September, 2014   
 
 ##### Events
