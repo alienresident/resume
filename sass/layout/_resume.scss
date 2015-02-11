@@ -34,6 +34,25 @@ ul {
   }
 }
 
+.download-pdf {
+  text-align: right;
+
+
+  a {
+    display: inline-block;
+    color: #f1f1f1;
+    background: $link-color;
+    padding: .125em .5em;
+    border-radius: 0 0 .25em .25em;
+    text-shadow: 1px 0 grey;
+    &:hover,
+    &:active {
+      color: #fff;
+      border: none;
+    }
+  }
+}
+
 .name-links {
   @include respond-to("large") {
     display: table;
