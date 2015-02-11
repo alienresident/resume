@@ -3,6 +3,9 @@
 *.css
 *.css.map
 
+# Temp Directory # 
+tmp
+
 # Node Stuff #
 node_modules
 npm-debug.log
