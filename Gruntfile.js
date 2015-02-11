@@ -36,12 +36,12 @@ module.exports = function(grunt) {
       },
 
       css: {
-        files: ['*.css']
+        files: ['**/**/*.css']
       },
 
       livereload: {
         files: [
-          '**/*.css'
+          '**/**/*.css'
         ],
 
         options: {
@@ -69,10 +69,10 @@ module.exports = function(grunt) {
       }
     },
 
-    concat: {   
+    concat: {
       scripts: {
-        src: ['js/src/*.js'], // All JS in the libs folder
-        dest: 'js/resume.scripts.js',
+        src: ['src/js/*.js'], // All JS in the libs folder
+        dest: 'tmp/js/resume.scripts.js',
       }
     },
 
@@ -82,11 +82,17 @@ module.exports = function(grunt) {
           '<%= grunt.template.today("yyyy-mm-dd") %>' + ' This file is compiled */'
       },
       scripts: {
-        src: 'js/resume.scripts.js',
-        dest: 'js/resume.scripts.min.js'
+        src: 'tmp/js/resume.scripts.js',
+        dest: 'dist/js/resume.scripts.min.js'
       }
     },
 
+    clean: {
+      dist: [
+        'src/css/', 'process', 'dist'
+      ]
+    },
+        
     htmlmin: {  // Task
       dist: {  // Target
         options: {  // Target options
@@ -94,17 +100,51 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {  // Dictionary of files
-          'index.html': 'src/index.html'
+          'dist/index.html': 'tmp/index.html'
         }
+      }
+    },
+
+    uncss: {
+      options: {
+          ignore: ['.wf-roboto-i4-active i', '.wf-roboto-i4-active em', '.wf-roboto-n7-active b', '.wf-roboto-n7-active strong', '.wf-roboto-n4-active body', '.wf-robotoslab-n4-active h1', '.wf-robotoslab-n4-active h2', '.wf-robotoslab-n4-active h3', '.wf-robotoslab-n4-active h4']
       },
-      dev: {  // Another target
+      dist: {
+        src: ['src/index.html'],
+        dest: 'tmp/css/global.css'
+        // options: {
+        //   report: 'min'
+        // }
+      }
+    },
+
+    cssmin : {
+      dist: {
+        options: {
+            keepSpecialComments: 0,
+        },
+        src: 'tmp/css/global.css',
+        dest: 'dist/css/global.css'
+      },
+      distie: {
+        options: {
+            keepSpecialComments: 0,
+            compatibility: 'ie8'
+        },
+        src: 'src/css/global-ie.css',
+        dest: 'dist/css/global-ie.css'
+      }
+    },
+
+    processhtml: {
+      dist: {
         files: {
-          'index.html': 'src/index.html'
+          'tmp/index.html': ['src/index.html']
         }
       }
     }
-
   });
 
-  grunt.registerTask('default', ['connect', 'watch', 'htmlmin']);
+  grunt.registerTask('default', ['connect', 'watch']);
+  grunt.registerTask('build', [ 'clean', 'concat', 'uglify', 'compass:dist', 'uncss', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin']);
 };
