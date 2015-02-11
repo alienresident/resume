@@ -33,23 +33,24 @@ html {
 
 body {
   @include respond-to("large") {
-    @include type-size( 1rem, $body-line-height); // 16px/1.5em 
+    @include type-size(1em, $body-line-height); // 16px/1.5em IE 8 fallback
+    @include type-size(1rem, $body-line-height); // 16px/1.5em
   }
 
   @include respond-to("x-large") {
-    @include type-size( 1rem, $body-line-height + .16666); // 18px/1.6666em
+    @include type-size(1rem, $body-line-height + .16666); // 18px/1.6666em
   }
 
   @include respond-to("xx-large") {
-    @include type-size( 1rem, $body-line-height + .16666); // 21px/1.6666em
+    @include type-size(1rem, $body-line-height + .16666); // 21px/1.6666em
   }
 
   @include respond-to("medium") {
-    @include type-size( 1rem, $body-line-height - .1); // 14px/1.4em
+    @include type-size(1rem, $body-line-height - .1); // 14px/1.4em
   }
 
   @include respond-to("small") {
-    @include type-size( 1rem, $body-line-height - .1); // 12px/1.4em
+    @include type-size(1rem, $body-line-height - .1); // 12px/1.4em
     word-spacing: -.085em;
   }
 }
