@@ -142,9 +142,16 @@ module.exports = function(grunt) {
           'tmp/index.html': ['src/index.html']
         }
       }
+    },
+    
+    copy: {
+      dist: {
+        src: 'pdf/*',
+        dest: 'dist/',
+      },
     }
   });
 
   grunt.registerTask('default', ['connect', 'watch']);
-  grunt.registerTask('build', [ 'clean', 'concat', 'uglify', 'compass:dist', 'uncss', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin']);
+  grunt.registerTask('build', [ 'clean', 'concat', 'uglify', 'compass:dist', 'uncss', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy']);
 };
