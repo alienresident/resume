@@ -9,15 +9,14 @@
       <link href="css/global-ie.css" rel="stylesheet">
     <![endif]-->
     <!--[if (gte IE 9)|(IEMobile)|(!IE)]><!-->
+      <!-- build:css css/global.css -->
       <link rel="stylesheet" href="css/global.css">
+      <!-- /build -->
     <!--<![endif]-->
     <!--[if lt IE 9]>
 
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
-
-    <script src="js/webfont.js" async></script>
-
   </head>
   <body>
     <div class="wrapper">
@@ -25,25 +24,25 @@
       <article id="resume" class="resume-body" itemscope itemtype="http://schema.org/Person">
 
         <header>
-
-            <div class="name-links">
-              <div itemprop="name"><h1>Mark Reilly</h1></div>
-              <div class="personal-links">
-                <ul>
-                  <li><a rel="me" itemprop="url" title="" href="http://www.markreilly.com">Portfolio</a></li>
-                  <li><a rel="me" itemprop="url" href="http://www.github.com/alienresident">GitHub</a></li>
-                  <li><a rel="me" itemprop="url" href="https://www.linkedin.com/in/markareilly">LinkedIn</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="address-contact">  
+        <div class="download-pdf"><a href="pdf/Mark-Reilly-Resume.pdf">PDF Version</a></div>
+          <div class="name-links">
+            <div itemprop="name"><h1>Mark Reilly</h1></div>
+            <div class="personal-links">
               <ul>
-                <li class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">82 Plymouth Avenue</span>, <span itemprop="addressLocality">Maplewood</span>, <span itemprop="addressRegion">NJ</span> <span itemprop="postalCode">07040</span></li>
-                <li class="email"><a itemprop="email" href="mailto:mark@alienresident.net">mark@alienresident.net</a></li>
-                <li class="phone"><a itemprop="telephone" href="tel:+013472283696">347 228 3696</a></li>
+                <li><a rel="me" itemprop="url" title="" href="http://www.markreilly.com">Portfolio</a></li>
+                <li><a rel="me" itemprop="url" href="http://www.github.com/alienresident">GitHub</a></li>
+                <li><a rel="me" itemprop="url" href="https://www.linkedin.com/in/markareilly">LinkedIn</a></li>
               </ul>
             </div>
+          </div>
+
+          <div class="address-contact">  
+            <ul>
+              <li class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">82 Plymouth Avenue</span>, <span itemprop="addressLocality">Maplewood</span>, <span itemprop="addressRegion">NJ</span> <span itemprop="postalCode">07040</span></li>
+              <li class="email"><a itemprop="email" href="mailto:mark@alienresident.net">mark@alienresident.net</a></li>
+              <li class="phone"><a itemprop="telephone" href="tel:+013472283696">347 228 3696</a></li>
+            </ul>
+          </div>
 
         </header>
 
@@ -392,6 +391,8 @@
       </article>
 
     </div>
-
+    <!-- build:js js/resume.scripts.min.js -->
+    <script src="js/webfont.js" async></script>
+    <!-- /build -->
   </body>
 </html>
