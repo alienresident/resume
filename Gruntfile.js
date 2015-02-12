@@ -92,7 +92,32 @@ module.exports = function(grunt) {
         'src/css/', 'process', 'dist'
       ]
     },
-        
+
+    copy: {
+      dist: {
+        src: 'pdf/*',
+        dest: 'dist/',
+      },
+      distie: {
+        src: 'src/index.html',
+        dest: 'tmp/index-ie.html',
+        options: {
+          process: function (content, srcpath) {
+            return content.replace("build:css css/global.css","build:css css/global-ie.css").replace('href="css/global.css"','href="../src/css/global-ie.css"');
+          },
+        },
+      },
+      normalize: {
+        src: 'src/index.html',
+        dest: 'tmp/index-normalize.html',
+        options: {
+          process: function (content, srcpath) {
+            return content.replace("build:css css/global.css","build:css css/normalize.css").replace('href="css/global.css"','href="../src/lib/normalize.css/normalize.css"');
+          },
+        },
+      },
+    },
+ 
     htmlmin: {  // Task
       dist: {  // Target
         options: {  // Target options
