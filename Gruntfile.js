@@ -211,13 +211,8 @@ module.exports = function(grunt) {
           'tmp/index.html': ['src/index.html']
         }
       }
-    
-    copy: {
-      dist: {
-        src: 'pdf/*',
-        dest: 'dist/',
-      },
     }
+
   });
 
   grunt.registerTask('default', ['connect', 'watch']);
