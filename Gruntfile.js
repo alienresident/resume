@@ -98,7 +98,7 @@ module.exports = function(grunt) {
 
     clean: {
       dist: [
-        'src/css/', 'process', 'dist'
+        'src/css/', 'tmp', 'dist'
       ]
     },
 
