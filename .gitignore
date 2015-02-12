@@ -6,6 +6,9 @@
 # Temp Directory # 
 tmp
 
+# Distribution Directory # 
+dist
+
 # Node Stuff #
 node_modules
 npm-debug.log
