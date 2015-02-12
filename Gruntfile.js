@@ -149,6 +149,20 @@ module.exports = function(grunt) {
         },
         src: ['src/index.html'],
         dest: 'tmp/css/global.css'
+      },
+      distie: {
+        options: {
+          report: 'min'
+        },
+        src: ['tmp/index-ie.html'],
+        dest: 'tmp/css/global-ie.css'
+      },
+      normalize: {
+        options: {
+          report: 'min'
+        },
+        src: ['tmp/index-normalize.html'],
+        dest: 'tmp/css/normalize.css'
       }
     },
 
