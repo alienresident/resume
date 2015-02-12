@@ -211,7 +211,6 @@ module.exports = function(grunt) {
           'tmp/index.html': ['src/index.html']
         }
       }
-    },
     
     copy: {
       dist: {
@@ -222,5 +221,5 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', ['connect', 'watch']);
-  grunt.registerTask('build', [ 'clean', 'concat', 'uglify', 'compass:dist', 'uncss', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy']);
+  grunt.registerTask('build', [ 'clean:dist', 'concat', 'uglify', 'compass:dist', 'copy:distie', 'copy:normalize', 'uncss:dist', 'uncss:distie', 'uncss:normalize', 'autoprefixer:dist', 'autoprefixer:distie', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy:dist']);
 };
