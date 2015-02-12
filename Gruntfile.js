@@ -144,11 +144,11 @@ module.exports = function(grunt) {
           ignore: ['.wf-roboto-i4-active i', '.wf-roboto-i4-active em', '.wf-roboto-n7-active b', '.wf-roboto-n7-active strong', '.wf-roboto-n4-active body', '.wf-robotoslab-n4-active h1', '.wf-robotoslab-n4-active h2', '.wf-robotoslab-n4-active h3', '.wf-robotoslab-n4-active h4']
       },
       dist: {
+        options: {
+          report: 'min'
+        },
         src: ['src/index.html'],
         dest: 'tmp/css/global.css'
-        // options: {
-        //   report: 'min'
-        // }
       }
     },
 
