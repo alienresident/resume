@@ -87,6 +87,15 @@ module.exports = function(grunt) {
       }
     },
 
+    bower: {
+          install: {
+            options: {
+              targetDir: 'src/lib',
+              cleanBowerDir: true,
+            }
+          }
+        },
+
     clean: {
       dist: [
         'src/css/', 'process', 'dist'
