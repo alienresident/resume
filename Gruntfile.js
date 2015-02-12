@@ -166,21 +166,42 @@ module.exports = function(grunt) {
       }
     },
 
+    autoprefixer: {
+      dist: {
+        options: {
+          browsers: ['last 1 version']
+        },
+        src: 'tmp/css/global.css',
+        dest: 'tmp/css/global.auto.css'
+      },
+      distie: {
+        options: {
+          browsers: ['ie 8']
+        },
+        src: 'src/css/global-ie.css',
+        dest: 'tmp/css/global-ie.auto.css'
+      },
+    },
+
     cssmin : {
       dist: {
         options: {
-            keepSpecialComments: 0,
+          keepSpecialComments: 0,
+          report: 'min'
         },
-        src: 'tmp/css/global.css',
-        dest: 'dist/css/global.css'
+        files: { 
+          'dist/css/global.css': ['tmp/css/normalize.css', 'tmp/css/global.auto.css']
+        },
       },
       distie: {
         options: {
             keepSpecialComments: 0,
-            compatibility: 'ie8'
+            compatibility: 'ie8',
+            report: 'min'
         },
-        src: 'src/css/global-ie.css',
-        dest: 'dist/css/global-ie.css'
+        files: { 
+          'dist/css/global-ie.css': ['tmp/css/normalize.css', 'tmp/css/global-ie.auto.css']
+        },
       }
     },
 
