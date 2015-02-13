@@ -87,6 +87,36 @@ module.exports = function(grunt) {
       }
     },
 
+    svgmin: {
+      options: {
+        plugins: [
+          { removeViewBox: false },
+          { removeUselessStrokeAndFill: false }
+        ]
+      },
+      dist: {
+          files: [{
+              expand: true,
+              cwd: 'src/svgs',
+              src: ['*.svg'],
+              dest: 'tmp/svgs'
+          }]
+      }
+    },
+
+    grunticon: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'tmp/svgs',
+          src: ['*.svg', '*.png'],
+          dest: "tmp/css"
+        }],
+        options: {
+        }
+      }
+    },
+
     bower: {
           install: {
             options: {
@@ -190,7 +220,7 @@ module.exports = function(grunt) {
           report: 'min'
         },
         files: { 
-          'dist/css/global.css': ['tmp/css/normalize.css', 'tmp/css/global.auto.css']
+          'dist/css/global.css': ['tmp/css/normalize.css', 'tmp/css/global.auto.css', 'tmp/css/icons.data.svg.css']
         },
       },
       distie: {
@@ -200,7 +230,7 @@ module.exports = function(grunt) {
             report: 'min'
         },
         files: { 
-          'dist/css/global-ie.css': ['tmp/css/normalize.css', 'tmp/css/global-ie.auto.css']
+          'dist/css/global-ie.css': ['tmp/css/normalize.css', 'tmp/css/global-ie.auto.css', 'tmp/css/icons.data.png.css']
         },
       }
     },
@@ -216,5 +246,5 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', ['connect', 'watch']);
-  grunt.registerTask('build', [ 'clean:dist', 'concat', 'uglify', 'compass:dist', 'copy:distie', 'copy:normalize', 'uncss:dist', 'uncss:distie', 'uncss:normalize', 'autoprefixer:dist', 'autoprefixer:distie', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy:dist']);
+  grunt.registerTask('build', [ 'clean:dist', 'concat', 'uglify', 'svgmin:dist', 'grunticon:dist', 'compass:dist', 'copy:distie', 'copy:normalize', 'uncss:dist', 'uncss:distie', 'uncss:normalize', 'autoprefixer:dist', 'autoprefixer:distie', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy:dist']);
 };
