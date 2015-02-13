@@ -113,6 +113,9 @@ module.exports = function(grunt) {
           dest: "tmp/css"
         }],
         options: {
+          colors: {
+            resumeRed: "#ff2020"
+          }
         }
       }
     },
@@ -134,7 +137,7 @@ module.exports = function(grunt) {
 
     copy: {
       dist: {
-        src: 'pdf/*',
+        src: 'src/pdf/*',
         dest: 'dist/',
       },
       distie: {
