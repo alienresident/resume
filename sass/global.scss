@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import "breakpoint";
-@import "modular-scale";
-@import "compass/css3/font-face";
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../bower_components/modular-scale/stylesheets/_modular-scale";
+
 
 @import "partials/_mixins";
 @import "layout/_breakpoints";
