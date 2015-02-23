@@ -24,7 +24,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: ['sass/{,**/}*.scss'],
-        tasks: ['compass:dev']
+        tasks: ['sass:dev']
       },
 
       scripts: {
@@ -49,22 +49,38 @@ module.exports = function(grunt) {
         }
       }
     },
-
-    compass: {
-      dist: {
+    // Grunt-sass 
+    sass: {
+      dev: {
+        // Takes every file that ends with .scss from the scss 
+        // directory and compile them into the css directory. 
+        // Also changes the extension from .scss into .css. 
+        // Note: file name that begins with _ are ignored automatically
+        files: [{
+          expand: true,
+          cwd: 'sass',
+          src: ['*.scss'],
+          dest: 'src/css',
+          ext: '.css'
+        }],
         options: {
-          environment: 'production',
-          outputStyle: 'compressed',
-          config: 'config.rb',
-          sourcemap: false
+          sourceMap: true, 
+          outputStyle: 'nested', 
+          imagePath: "images",
         }
       },
-      dev: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'sass',
+          src: ['*.scss'],
+          dest: 'src/css',
+          ext: '.css'
+        }],
         options: {
-          environment: 'development',
-          outputStyle: 'expanded',
-          config: 'config.rb',
-          sourcemap: true
+          sourceMap: false, 
+          outputStyle: 'compressed', 
+          imagePath: "images",
         }
       }
     },
@@ -249,5 +265,5 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', ['connect', 'watch']);
-  grunt.registerTask('build', [ 'clean:dist', 'concat', 'uglify', 'svgmin:dist', 'grunticon:dist', 'compass:dist', 'copy:distie', 'copy:normalize', 'uncss:dist', 'uncss:distie', 'uncss:normalize', 'autoprefixer:dist', 'autoprefixer:distie', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy:dist']);
+  grunt.registerTask('build', [ 'clean:dist', 'concat', 'uglify', 'svgmin:dist', 'grunticon:dist', 'sass:dist', 'copy:distie', 'copy:normalize', 'uncss:dist', 'uncss:distie', 'uncss:normalize', 'autoprefixer:dist', 'autoprefixer:distie', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy:dist']);
 };
