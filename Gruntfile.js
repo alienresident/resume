@@ -28,8 +28,8 @@ module.exports = function(grunt) {
       },
 
       scripts: {
-        files: ['js/*.js'],
-        tasks: ['concat', 'uglify'],
+        files: ['src/js/*.js'],
+        tasks: ['concat:js', 'uglify'],
         options: {
           spawn: false,
         }
