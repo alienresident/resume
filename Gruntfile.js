@@ -236,15 +236,15 @@ module.exports = function(grunt) {
         options: {
           browsers: ['last 1 version']
         },
-        src: 'tmp/css/global.css',
-        dest: 'tmp/css/global.auto.css'
+        src: 'tmp/css/all.uncss.css',
+        dest: 'tmp/css/all.auto.css'
       },
       distie: {
         options: {
           browsers: ['ie 8']
         },
-        src: 'src/css/global-ie.css',
-        dest: 'tmp/css/global-ie.auto.css'
+        src: 'tmp/css/all-ie.uncss.css',
+        dest: 'tmp/css/all-ie.auto.css'
       },
     },
 
