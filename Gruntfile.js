@@ -212,28 +212,22 @@ module.exports = function(grunt) {
 
     uncss: {
       options: {
-          ignore: ['.wf-roboto-i4-active i', '.wf-roboto-i4-active em', '.wf-roboto-n7-active b', '.wf-roboto-n7-active strong', '.wf-roboto-n4-active body', '.wf-robotoslab-n4-active h1', '.wf-robotoslab-n4-active h2', '.wf-robotoslab-n4-active h3', '.wf-robotoslab-n4-active h4']
+        ignore: ['.wf-roboto-i4-active i', '.wf-roboto-i4-active em', '.wf-roboto-n7-active b', '.wf-roboto-n7-active strong', '.wf-roboto-n4-active body', '.wf-robotoslab-n4-active h1', '.wf-robotoslab-n4-active h2', '.wf-robotoslab-n4-active h3', '.wf-robotoslab-n4-active h4']
       },
       dist: {
         options: {
           report: 'min'
         },
-        src: ['src/index.html'],
-        dest: 'tmp/css/global.css'
+        files: {
+          'tmp/css/all.uncss.css': ['tmp/index.html']
+        }
       },
       distie: {
         options: {
           report: 'min'
         },
         src: ['tmp/index-ie.html'],
-        dest: 'tmp/css/global-ie.css'
-      },
-      normalize: {
-        options: {
-          report: 'min'
-        },
-        src: ['tmp/index-normalize.html'],
-        dest: 'tmp/css/normalize.css'
+        dest: 'tmp/css/all-ie.uncss.css'
       }
     },
 
