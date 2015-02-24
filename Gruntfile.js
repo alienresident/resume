@@ -205,7 +205,7 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {  // Dictionary of files
-          'dist/index.html': 'tmp/index.html'
+          'dist/index.html': 'tmp/index-process.html'
         }
       }
     },
