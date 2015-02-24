@@ -140,18 +140,21 @@ module.exports = function(grunt) {
     },
 
     grunticon: {
+      dev: {
+        files: [{
+          expand: true,
+          cwd: 'src/svgs',
+          src: ['*.svg', '*.png'],
+          dest: "src/css"
+        }],
+      },
       dist: {
         files: [{
           expand: true,
           cwd: 'tmp/svgs',
           src: ['*.svg', '*.png'],
-          dest: "tmp/css"
+          dest: "src/css"
         }],
-        options: {
-          colors: {
-            resumeRed: "#ff2020"
-          }
-        }
       }
     },
 
