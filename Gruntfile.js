@@ -91,10 +91,24 @@ module.exports = function(grunt) {
     },
 
     concat: {
-      scripts: {
-        src: ['src/js/*.js'], // All JS in the libs folder
-        dest: 'tmp/js/resume.scripts.js',
-      }
+      js: {
+        files: {
+          'tmp/js/resume.scripts.js': ['src/js/*.js'],
+        },
+      },
+      dist: {
+        files: {
+          'tmp/js/resume.scripts.js': ['src/js/*.js'],
+          'src/css/all.css': ['src/lib/normalize.css/normalize.css', 'src/css/global.css', 'src/css/icons.data.svg.css'],
+          'src/css/all-ie.css': ['src/lib/normalize.css/normalize.css', 'src/css/global-ie.css', 'src/css/icons.data.svg.css'],
+        },
+      },
+      dev: {
+        files: {
+          'src/css/all.css': ['src/lib/normalize.css/normalize.css', 'src/css/global.css', 'src/css/icons.data.svg.css'],
+          'src/css/all-ie.css': ['src/lib/normalize.css/normalize.css', 'src/css/global-ie.css', 'src/css/icons.data.svg.css'],
+        }
+      },
     },
 
     uglify: {
