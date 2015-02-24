@@ -130,12 +130,12 @@ module.exports = function(grunt) {
         ]
       },
       dist: {
-          files: [{
-              expand: true,
-              cwd: 'src/svgs',
-              src: ['*.svg'],
-              dest: 'tmp/svgs'
-          }]
+        files: [{
+          expand: true,
+          cwd: 'src/svgs',
+          src: ['*.svg'],
+          dest: 'tmp/svgs'
+        }]
       }
     },
 
