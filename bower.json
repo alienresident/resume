@@ -1,6 +1,6 @@
 {
   "name": "resume-redux",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/alienresident/resume",
   "authors": [
     "Mark Reilly <mark@alienresident.net>"
@@ -15,6 +15,8 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.2"
+    "normalize.css": "~3.0.2",
+    "modular-scale": "~2.0.7",
+    "breakpoint-sass": "~2.5.0"
   }
 }
