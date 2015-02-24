@@ -281,6 +281,28 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', ['connect', 'watch']);
-  grunt.registerTask('build', [ 'clean:dist', 'concat', 'uglify', 'svgmin:dist', 'grunticon:dist', 'sass:dist', 'copy:distie', 'copy:normalize', 'uncss:dist', 'uncss:distie', 'uncss:normalize', 'autoprefixer:dist', 'autoprefixer:distie', 'cssmin:dist', 'cssmin:distie', 'processhtml', 'htmlmin', 'copy:dist']);
+  grunt.registerTask('default', [
+    'connect', 
+    'watch'
+  ]);
+
+  grunt.registerTask('build', [ 
+    'clean:dist', // Clean out temp directories
+    'sass:dist',  // Run sass complie
+    'svgmin:dist', // Min SVG icons
+    'grunticon:dist', // Make grunticons
+    'concat:dist', // Concat CSS and JS
+    'uglify', // Uglify JS
+    'copy:dist', // Copy index and replace stylesheet for UnCSS
+    'copy:distie', // Copy index and replace with IE stylesheet for UnCSS
+    'uncss:dist', // UnCSS all stylesheet
+    'uncss:distie', // UnCSS IE stylesheet
+    'autoprefixer:dist', // autoprefix all stylesheet
+    'autoprefixer:distie', // autoprefix IE stylesheet
+    'cssmin:dist', // minify all stylesheet to dist directory
+    'cssmin:distie', // minify IE stylesheet to dist directory
+    'processhtml:dist', // process build JS tag
+    'htmlmin:dist', // minify processed HTML to dist directory
+    'copy:pdfs' // Copy PDFs  to dist directory
+  ]);
 };
