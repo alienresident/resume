@@ -248,14 +248,15 @@ module.exports = function(grunt) {
       },
     },
 
-    cssmin : {
+    cssmin: {
       dist: {
+
+        files: { 
+          'dist/css/all.css': [ 'tmp/css/all.auto.css']
+        },
         options: {
           keepSpecialComments: 0,
           report: 'min'
-        },
-        files: { 
-          'dist/css/global.css': ['tmp/css/normalize.css', 'tmp/css/global.auto.css', 'tmp/css/icons.data.svg.css']
         },
       },
       distie: {
@@ -265,7 +266,7 @@ module.exports = function(grunt) {
             report: 'min'
         },
         files: { 
-          'dist/css/global-ie.css': ['tmp/css/normalize.css', 'tmp/css/global-ie.auto.css', 'tmp/css/icons.data.png.css']
+          'dist/css/all-ie.css': ['tmp/css/all-ie.auto.css']
         },
       }
     },
