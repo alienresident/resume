@@ -39,6 +39,11 @@ module.exports = function(grunt) {
         files: ['**/**/*.css']
       },
 
+      svg: {
+        files: ['src/svgs/*.svg'],
+        tasks: ['grunticon:dev', 'concat:dev']
+
+      },
       livereload: {
         files: [
           '**/**/*.css'
