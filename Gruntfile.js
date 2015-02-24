@@ -274,7 +274,7 @@ module.exports = function(grunt) {
     processhtml: {
       dist: {
         files: {
-          'tmp/index.html': ['src/index.html']
+          'tmp/index-process.html': ['src/index.html']
         }
       }
     }
