@@ -175,8 +175,11 @@ module.exports = function(grunt) {
 
     copy: {
       pdfs: {
-        src: 'src/pdf/*',
-        dest: 'dist/',
+        expand: true,
+        cwd: 'src/pdf/',
+        src: '*.pdf',
+        dest: 'dist/pdf/',
+        flatten: true,
       },
       dist: {
         src: 'src/index.html',
