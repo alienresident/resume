@@ -1,17 +1,21 @@
 # Mark Reilly's Resume
 
-This is a repository for Mark Reilly's [online resume](http://resume.markreilly.com).
+This is the repository for Mark Reilly's [online resume](http://resume.markreilly.com).
 
-The resume is a responsive design and the resulting code has been optimized as much as possible. The design should work well on all modern browsers and devices and older browsers including IE 8.
+The resume features a responsive design and has been optimized as much as possible. The design should work well on all modern browsers and devices with fallback code for older browsers including IE 8.
 
 ## Features
+This resume follows the current best practices in web development.  
+
 * Responsive design
     * *Print First* design
-    * Downloadable PDF from print style sheet
-    * Works across browsers and devices 
-    * IE 8 Fallback code
-* Optimized and Minified via Grunt
+        * Downloadable PDF created from print style sheet
+    * Works across modern browsers and devices
+* HTML 5 & CSS 3
+* Schema.org structured data
 * [Text Version](https://github.com/alienresident/resume/blob/master/resume.md) in Markdown
+* IE 8 fallback code
+* Optimized and Minified via Grunt
 
 ## Development Process
 
