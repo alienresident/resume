@@ -132,7 +132,7 @@ January 2000–May 2001
 ##### Events
 * **DrupalCamp NYC 9 & 10** Co-Organizer and Designer: *NYC Drupal Users Group* — June 2011 & December 2011
 * **Usability @ NYU** Co-Organizer: *NYU UX group* — 11th December, 2012
-* **UX @ NYU*** Co-Organizer: *NYU UX group* — 14th November, 2013
+* **UX @ NYU** Co-Organizer: *NYU UX group* — 14th November, 2013
 * [**UX Networking Breakfast**](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/) Co-Organizer: *TorchTech & NYU UX group* — 23rd April, 2014 
 
 ##### Trainings
