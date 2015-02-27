@@ -93,7 +93,7 @@ January 2000–May 2001
 **Production Artist and Animator**  
 *Heritage Project DVD-ROM*  
 
-* Produce over 500 interactive maps for an DVD-ROM historical atlas feature of the award winning Jewish history television series, “The Heritage Project”
+* Produce over 500 interactive maps for an DVD-ROM historical atlas feature of the award winning Jewish history television series, *The Heritage Project*
 
 ## Education
 * 1999–2007 **Ph.D. Media & Communication**, *European Graduate School*, Saas-Fee, Switzerland. 
@@ -124,13 +124,13 @@ January 2000–May 2001
 
 ##### Presentations
 * **MediaCommons 2.0** at *[Digital Library Federation Forum](http://old.diglib.org/forums/spring2009/)* — 5th May, 2009
-* **Fixing Broken User Experience** *NYU ITS All Hands Meeting* – 21st September, 2012
-* [**Rapid Protoyping Techniques**](http://markreilly.com/examples/torchtech-ux-breakfast/) *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014 
+* **Fixing Broken User Experience** at *NYU ITS All Hands Meeting* – 21st September, 2012
+* [**Rapid Protoyping Techniques**](http://markreilly.com/examples/torchtech-ux-breakfast/) at *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014 
 * [**Sakai: Meet MORPHEUS**](http://markreilly.com/examples/sakai/open-apereo/) at [*Open Apereo 2014*](http://lanyrd.com/2014/apereo/sczzxw/) — 2nd June, 2014 
 * [**Beyond Putting Lipstick on the Pig**](http://i5.nyu.edu/~mar22/sakai/edui/) at [*EdUI 2014*](http://eduiconf.org/sessions/edui_pig/) — 30th September, 2014   
 
 ##### Events
-* **DrupalCamp NYC 9 & 10** Co-Organizer and Designer: NYC Drupal Users * Group — June 2011 & December 2011
+* **DrupalCamp NYC 9 & 10** Co-Organizer and Designer: *NYC Drupal Users Group* — June 2011 & December 2011
 * **Usability @ NYU** Co-Organizer: *NYU UX group* — 11th December, 2012
 * **UX @ NYU*** Co-Organizer: *NYU UX group* — 14th November, 2013
 * [**UX Networking Breakfast**](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/) Co-Organizer: *TorchTech & NYU UX group* — 23rd April, 2014 
