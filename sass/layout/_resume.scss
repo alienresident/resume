@@ -59,6 +59,7 @@ ul {
 }
 
 .name-links {
+
   @include respond-to("large") {
     display: table;
     width: 100%;
@@ -377,15 +378,19 @@ ul {
   [itemprop="roleName"] {
     font-weight: bold;
     display: block;
+
+      + span {
+      font-style: italic;
+      display: block;
+    }
   }
 
-  [itemprop="department"] {
-    font-style: italic;
-    display: block;
-  }
-
-  .wrap-line [itemprop="department"] {
+  .wrap-line {
     display: inline;
+  }
+
+  .digital-agency {
+    font-style: normal;
   }
 
   [itemprop="description"] + p {
@@ -438,9 +443,10 @@ ul {
   }
 }
 
-.education {
+section.education {
   ul {
     padding: 0;
+    max-width: ms(15);
 
     li {
       list-style-type: none;
@@ -481,13 +487,13 @@ ul {
 }
 
 .teaching {
-  [itemprop="department"] {
-    font-style: italic;
-    display: inline;
-  }
 
   [itemprop="name"] {
     font-weight: bold;
+  }
+
+  [itemprop="roleName"] + span {
+    font-style: italic;
   }
 
   .college-date {
@@ -506,23 +512,30 @@ ul {
   }
 }
 
+section.additional-information {
+  ul {
+    padding: 0;
+    max-width: ms(15);
+  }
+}
+
 .presentations,
 .events,
 .trainings {
-  [itemprop="subEvent"],
   span[itemprop="name" ] {
     font-weight: bold;
   }
 
   [itemprop="event"],
-  [itemprop="organizer"] {
+  [itemprop="organizer"],
+  [itemprop="alternateName"] {
     font-style: italic;
   }
 }
 
 .presentations,
 .trainings {
-  span[itemprop="name" ] {
+  span[itemprop="location"] > span[itemprop="name" ] {
     font-style: italic;
     font-weight: normal;
   }
