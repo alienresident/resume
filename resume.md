@@ -23,8 +23,8 @@ Maplewood, NJ 07040
 * Typography and Graphic Production
 
 ### Technical Skills
-* HTML, CSS, Sass & Compass, Javascript & jQuery,
 * Sketch, Photoshop, OmniGraffle, Illustrator, Flash
+* HTML, CSS, Sass & Compass, Javascript & jQuery
 * SVN & Git, PHP, MySQL, Drupal
 
 ## Professional Experience
