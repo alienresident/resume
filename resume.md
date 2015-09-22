@@ -23,14 +23,25 @@ Maplewood, NJ 07040
 * Typography and Graphic Production
 
 ### Technical Skills
-* Photoshop, OmniGraffle, Illustrator, Flash, Fireworks 
 * HTML, CSS, Sass & Compass, Javascript & jQuery,
+* Sketch, Photoshop, OmniGraffle, Illustrator, Flash
 * SVN & Git, PHP, MySQL, Drupal
 
 ## Professional Experience
+### Spies & Assassins | kbs+
+
+March 2015–present
+
+**Senior User Experience Designer**  
+*Spies & Assassins |  Kirshenbaum Bond Senecal & Partners*  
+
+* Create wireframes, user flows, and prototypes for the redesign of the My BMW website
+* Create wireframes and user flows for the 360˚ interactive *Tour of Tomorrow* showcasing the innovations of new BMW 7 Series
+* Create mockups for the interactive informational signage for Bank of Montreal at Toronto's Billy Bishop Airport
+
 
 ### New York University 
-October 2008–present
+October 2008–March 2015
   
 **User Experience Specialist**  
 *Digital Communications Group, Information Technology Services*  
