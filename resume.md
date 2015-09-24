@@ -33,7 +33,7 @@ Maplewood, NJ 07040
 March 2015–present
 
 **Senior User Experience Designer**  
-*Spies & Assassins |  Kirshenbaum Bond Senecal & Partners*  
+*Spies & Assassins | Kirshenbaum Bond Senecal & Partners*  
 
 * Create wireframes, user flows, and prototypes for the redesign of the My BMW website
 * Create wireframes and user flows for the 360˚ interactive *Tour of Tomorrow* showcasing the innovations of new BMW 7 Series
