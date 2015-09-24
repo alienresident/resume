@@ -151,3 +151,4 @@ January 2000–May 2001
 * [**Do It Yourself Usability Testing**](http://rosenfeldmedia.com/course/do-it-yourself-usability-testing/) with Steve Krug, *Rosenfeld Media* — May 2012
 * [**UX Leadership**](http://rosenfeldmedia.com/course/ux-leadership/) with Kim Goodwin, *Rosenfeld Media* — October 2012
 * [**Scaling User Interfaces**](http://www.nngroup.com/courses/scaling-responsive-design/) with Amy Schade, *Nielsen Norman Group* — August 2014
+* [**Design Leadership**](http://www.cooper.com/training/design-leadership) with Teresa Brazen & Lane Halley, *Cooper U* — August 2015
