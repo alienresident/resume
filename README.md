@@ -22,7 +22,7 @@ This resume follows the current best practices in web development.
 
 ### Schema.org
 
-Structured Data [Testing Tool](https://developers.google.com/webmasters/structured-data/testing-tool?url=http%253A%252F%252Fresume.markreilly.com%252F)
+Structured Data [Testing Tool](https://search.google.com/structured-data/testing-tool?url=resume.markreilly.com#url=resume.markreilly.com)
 
 ### HTML 5 Validator
 [HTML5 validation](https://html5.validator.nu/?doc=http%3A%2F%2Fresume.markreilly.com&showsource=yes)
