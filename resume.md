@@ -152,3 +152,4 @@ January 2000–May 2001
 * [**UX Leadership**](http://rosenfeldmedia.com/course/ux-leadership/) with Kim Goodwin, *Rosenfeld Media* — October 2012
 * [**Scaling User Interfaces**](http://www.nngroup.com/courses/scaling-responsive-design/) with Amy Schade, *Nielsen Norman Group* — August 2014
 * [**Design Leadership**](http://www.cooper.com/training/design-leadership) with Teresa Brazen & Lane Halley, *Cooper U* — August 2015
+* * [**Leading Creative Ideation**](https://www.cooper.com/training/leading-creative-ideation) with Christian Linsey & Jen Zhao, *Cooper U* — May 2016
