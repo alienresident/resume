@@ -76,7 +76,8 @@ $blockquote-border-radius: 0;
 $blockquote-color: #444;
 $blockquote-margin: 1em auto;
 $blockquote-padding: .25em 0 .5em .25em;
-$li-margin: 0;
+$li-list-style-position: outside;
+$li-margin: 1em;
 $li-text-indent: 0;
 $h1-font-bold: false !default; // normal
 $h1-font-italic: false !default; // normal
@@ -177,7 +178,7 @@ $hr-background-rgba: rgba(0,0,0,.2) !default;
 /// p, ul, ol, hr, table, form, fieldset
 $element-margin: 1.25em 0 !default;
 /// li
-$li-list-style-position: inside !default;
+$li-list-style-position: outside !default;
 $li-margin: 1em !default;
 $li-margin-pos: left !default;
 $li-text-indent: -1em !default;
