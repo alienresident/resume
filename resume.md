@@ -1,7 +1,7 @@
 # Mark Reilly  
 82 Plymouth Avenue   
 Maplewood, NJ 07040  
-[mark@alienresident.net](mailto:mark@alienresident.net)  
+<mark@alienresident.net>  
 [347 228 3696](tel:+013472283696)
 
 * [Portfolio](http://www.markreilly.com)  
@@ -23,18 +23,27 @@ Maplewood, NJ 07040
 * Typography and Graphic Production
 
 ### Technical Skills
-* Sketch, Photoshop, OmniGraffle, Illustrator, Flash
+* Sketch, Photoshop, OmniGraffle, Illustrator, Principle, Flash
 * HTML, CSS, Sass & Compass, Javascript & jQuery
 * SVN & Git, PHP, MySQL, Drupal
 
 ## Professional Experience
-### Spies & Assassins | kbs+
+### KBS (kirshenbaum bond senecal)
 
-March 2015–present
+March 2015-present
+
+**Associate Director, User Experience**  
+*KBS (kirshenbaum bond senecal)*  
+November 2016–present
+
+* Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website
+* Create a Sketch and InVision based workflow to streamline work between departments. Where wireframes  created by UX designers, are visualized by UI designers, and then prepared for handoff to developers
 
 **Senior User Experience Designer**  
-*Spies & Assassins | Kirshenbaum Bond Senecal & Partners*  
+*Spies & Assassins | KBS (kirshenbaum bond senecal)*  
+March 2015-November 2016
 
+* Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website
 * Create wireframes, user flows, and prototypes for the redesign of the My BMW website
 * Create wireframes and user flows for the 360˚ interactive *Tour of Tomorrow* showcasing the innovations of new BMW 7 Series
 * Create mockups for the interactive informational signage for Bank of Montreal at Toronto's Billy Bishop Airport
@@ -133,23 +142,23 @@ January 2000–May 2001
 ### Selected Presentations, Events, and Trainings
 
 ##### Presentations
-* **MediaCommons 2.0** at *[Digital Library Federation Forum](http://old.diglib.org/forums/spring2009/)* — 5th May, 2009
-* **Fixing Broken User Experience** at *NYU ITS All Hands Meeting* – 21st September, 2012
-* [**Rapid Protoyping Techniques**](http://markreilly.com/examples/torchtech-ux-breakfast/) at *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014 
+* [**Beyond Putting Lipstick on the Pig**](http://i5.nyu.edu/~mar22/sakai/edui/) at [*EdUI 2014*](http://eduiconf.org/sessions/edui_pig/) — 30th September, 2014    
 * [**Sakai: Meet MORPHEUS**](http://markreilly.com/examples/sakai/open-apereo/) at [*Open Apereo 2014*](http://lanyrd.com/2014/apereo/sczzxw/) — 2nd June, 2014 
-* [**Beyond Putting Lipstick on the Pig**](http://i5.nyu.edu/~mar22/sakai/edui/) at [*EdUI 2014*](http://eduiconf.org/sessions/edui_pig/) — 30th September, 2014   
+* [**Rapid Protoyping Techniques**](http://markreilly.com/examples/torchtech-ux-breakfast/) at *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014
+* **Fixing Broken User Experience** at *NYU ITS All Hands Meeting* – 21st September, 2012
+* **MediaCommons 2.0** at *[Digital Library Federation Forum](http://old.diglib.org/forums/spring2009/)* — 5th May, 2009
 
 ##### Events
-* **DrupalCamp NYC 9 & 10** Co-Organizer and Designer: *NYC Drupal Users Group* — June 2011 & December 2011
-* **Usability @ NYU** Co-Organizer: *NYU UX group* — 11th December, 2012
-* **UX @ NYU** Co-Organizer: *NYU UX group* — 14th November, 2013
 * [**UX Networking Breakfast**](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/) Co-Organizer: *TorchTech & NYU UX group* — 23rd April, 2014 
+* **UX @ NYU** Co-Organizer: *NYU UX group* — 14th November, 2013
+* **Usability @ NYU** Co-Organizer: *NYU UX group* — 11th December, 2012
+* **DrupalCamp NYC 9 & 10** Co-Organizer and Designer: *NYC Drupal Users Group* — June 2011 & December 2011
 
 ##### Trainings
-* **Mobile Prototyping Essentials** with Rachel Hinman, *Interaction 12* — February 2012
-* **Sketching Interfaces** with Jason Mesut & Sam Smith, *Interaction 12* — February 2012
-* [**Do It Yourself Usability Testing**](http://rosenfeldmedia.com/course/do-it-yourself-usability-testing/) with Steve Krug, *Rosenfeld Media* — May 2012
-* [**UX Leadership**](http://rosenfeldmedia.com/course/ux-leadership/) with Kim Goodwin, *Rosenfeld Media* — October 2012
-* [**Scaling User Interfaces**](http://www.nngroup.com/courses/scaling-responsive-design/) with Amy Schade, *Nielsen Norman Group* — August 2014
+* [**Leading Creative Ideation**](https://www.cooper.com/training/leading-creative-ideation) with Christian Linsey & Jen Zhao, *Cooper U* — May 2016
 * [**Design Leadership**](http://www.cooper.com/training/design-leadership) with Teresa Brazen & Lane Halley, *Cooper U* — August 2015
-* * [**Leading Creative Ideation**](https://www.cooper.com/training/leading-creative-ideation) with Christian Linsey & Jen Zhao, *Cooper U* — May 2016
+* [**Scaling User Interfaces**](http://www.nngroup.com/courses/scaling-responsive-design/) with Amy Schade, *Nielsen Norman Group* — August 2014
+* [**UX Leadership**](http://rosenfeldmedia.com/course/ux-leadership/) with Kim Goodwin, *Rosenfeld Media* — October 2012
+* [**Do It Yourself Usability Testing**](http://rosenfeldmedia.com/course/do-it-yourself-usability-testing/) with Steve Krug, *Rosenfeld Media* — May 2012
+* **Sketching Interfaces** with Jason Mesut & Sam Smith, *Interaction 12* — February 2012
+* **Mobile Prototyping Essentials** with Rachel Hinman, *Interaction 12* — February 2012
