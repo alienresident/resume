@@ -4,7 +4,7 @@ Maplewood, NJ 07040
 <mark@alienresident.net>  
 [347 228 3696](tel:+013472283696)
 
-* [Portfolio](http://www.markreilly.com)  
+* [Portfolio](https://www.behance.net/markreilly)  
 * [GitHub](http://www.github.com/alienresident)  
 * [LinkedIn](https://www.linkedin.com/in/markareilly)
 
