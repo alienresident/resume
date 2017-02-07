@@ -181,6 +181,12 @@ module.exports = function(grunt) {
         dest: 'dist/pdf/',
         flatten: true,
       },
+      imgs: {
+        expand: true,
+        cwd: 'src/images/exports/',
+        src: ['*.{png,jpg,gif}'],
+        dest: 'dist/images/'
+      },
       dist: {
         src: 'src/index.html',
         dest: 'tmp/index.html',
@@ -306,6 +312,7 @@ module.exports = function(grunt) {
     'cssmin:distie', // minify IE stylesheet to dist directory
     'processhtml:dist', // process build JS tag
     'htmlmin:dist', // minify processed HTML to dist directory
-    'copy:pdfs' // Copy PDFs  to dist directory
+    'copy:pdfs', // Copy PDFs  to dist directory
+    'copy:imgs' // Copy images to dist directory
   ]);
 };
