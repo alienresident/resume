@@ -6,11 +6,11 @@
 
 @import "partials/_mixins";
 @import "layout/_breakpoints";
-@import "modules/webfont/_webfont";
-@import "modules/icons/_icons";
 
 @import "base/_typography";
 @import "base/_links";
 @import "base/_page";
 @import "layout/_resume";
+@import "modules/icons/_icons";
 @import "layout/_print";
+@import "modules/webfont/_webfont";
