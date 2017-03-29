@@ -187,6 +187,12 @@ module.exports = function(grunt) {
         src: ['*.{png,jpg,gif}'],
         dest: 'dist/images/'
       },
+      ico: {
+        expand: true,
+        cwd: 'src/',
+        src: ['*.ico'],
+        dest: 'dist/'
+      },
       dist: {
         src: 'src/index.html',
         dest: 'tmp/index.html',
@@ -313,6 +319,7 @@ module.exports = function(grunt) {
     'processhtml:dist', // process build JS tag
     'htmlmin:dist', // minify processed HTML to dist directory
     'copy:pdfs', // Copy PDFs  to dist directory
-    'copy:imgs' // Copy images to dist directory
+    'copy:imgs', // Copy images  to dist directory
+    'copy:ico' // Copy favicon.ico to dist directory
   ]);
 };
