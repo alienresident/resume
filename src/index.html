@@ -7,18 +7,19 @@
     <!-- facebook open graph tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://resume.markreilly.com/">
-    <meta property="og:title" content="Mark Reilly's Resume">
-    <meta property="og:description" content="A User Experience Designer with a deep understanding of the design process meeting user goals while balancing aesthetics & technical constraints">
+    <meta property="og:title" content="Mark Reilly — Resume">
+    <meta property="og:description" content="I'm the Associate Director of User Experience at KBS. I've been designing and building digital experiences for over eighteen years.">
     <meta property="og:image" content="http://resume.markreilly.com/images/Twitter-Summary-Card.jpg">
      
     <!-- twitter card tags additive with the og: tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@alien_resident">
-    <meta name="twitter:domain" value="resume.markreilly.com">
-    <meta name="twitter:title" value="Mark Reilly's Resume">
-    <meta name="twitter:description" value="A User Experience Designer with a deep understanding of the design process meeting user goals while balancing aesthetics & technical constraints">
+    <meta name="twitter:domain" value="http://resume.markreilly.com">
+    <meta name="twitter:title" value="Mark Reilly — Resume">
+    <meta name="twitter:description" value="I'm the Associate Director of User Experience at KBS. I've been designing and building digital experiences for over eighteen years.">
     <meta name="twitter:image" content="http://resume.markreilly.com/images/Twitter-Summary-Card.jpg">
     <meta name="twitter:url" value="http://resume.markreilly.com/">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com/">
     <!--[if lt IE 9]>
       <link href="css/all-ie.css" rel="stylesheet">
     <![endif]-->
@@ -29,6 +30,8 @@
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
   </head>
   <body>
 
@@ -78,7 +81,7 @@
 
           <h2>Summary</h2>
 
-          <blockquote>I am a User Experience Designer with over fifteen years in interactive media. My career spans the breadth of digital production, from production art to web design and front-end development. As a User Experience Designer, my in-depth understanding of the design process allows me to meet user goals while balancing aesthetics and technical constraints.</blockquote>
+          <blockquote>I am a User Experience Designer with over eighteen years in interactive media. My career spans the breadth of digital production, from production art to web design and front-end development. As a User Experience Designer, my in-depth understanding of the design process allows me to meet user goals while balancing aesthetics and technical constraints.</blockquote>
 
         </section>
 
@@ -144,8 +147,9 @@
 
                   <div itemprop="description">
                     <ul>
-                      <li>Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website</li>
-                      <li>Create a Sketch and InVision based workflow to streamline work between departments. Where wireframes  created by UX designers, are visualized by UI designers, and then prepared for handoff to developers</li>
+                      <li>Create a design system, user flows, and a prototype for Stanley Black & Decker's Lista product configurator</li>
+                      <li>Design a skills matrix for the UX team to visualize strengths and gaps within the team. The skills matrix helps with allocations, skills training, and career development.</li>
+                      <li>Create a Sketch and InVision based workflow to streamline work between departments; Wireframes are created by UX designers, visualized by UI designers, and then prepared for handoff to developers</li>
                     </ul>
                   </div>
 
@@ -157,9 +161,9 @@
 
                   <div itemprop="description">
                     <ul>
+                      <li>Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website</li>
                       <li>Create wireframes, user flows, and prototypes for the redesign of the My BMW website</li>
-                      <li>Create wireframes and user flows for the 360˚ interactive <em>Tour of Tomorrow</em> showcasing the innovations of new BMW 7 Series</li>
-                      <li>Create mockups for the interactive informational signage for Bank of Montreal at Toronto's Billy Bishop Airport</li>
+                      <li>Conduct user interviews and create content types and wireframes for the Hershey's digital marketing learning site</li>
                     </ul>
                   </div>
 
@@ -444,8 +448,13 @@
       </article>
 
     </div>
-    <!-- build:js js/resume.scripts.min.js -->
-    <script src="js/webfont.js" async></script>
-    <!-- /build -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Roboto:400,700,700italic,400italic:latin','Roboto+Slab::latin']
+        }
+      });
+    </script>
   </body>
 </html>
