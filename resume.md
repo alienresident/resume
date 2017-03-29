@@ -156,6 +156,7 @@ January 2000–May 2001
 * **DrupalCamp NYC 9 & 10** Co-Organizer and Designer: *NYC Drupal Users Group* — June 2011 & December 2011
 
 ##### Trainings
+* [**Design Teams Are a Design Exercise: How to Build, Inspire and Keep Design Teams (Happy)**](http://interaction17.ixda.org/session/design-teams-design-exercise-build-inspire-keep-design-teams-happy/) with Alberta Soranzo & Martina Hodges-Schell, *Interaction 17* — February 2017
 * [**Leading Creative Ideation**](https://www.cooper.com/training/leading-creative-ideation) with Christian Linsey & Jen Zhao, *Cooper U* — May 2016
 * [**Design Leadership**](http://www.cooper.com/training/design-leadership) with Teresa Brazen & Lane Halley, *Cooper U* — August 2015
 * [**Scaling User Interfaces**](http://www.nngroup.com/courses/scaling-responsive-design/) with Amy Schade, *Nielsen Norman Group* — August 2014
