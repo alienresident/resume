@@ -11,7 +11,7 @@ Maplewood, NJ 07040
 
 ## Summary 
 
-> I am a User Experience Designer with over fifteen years in interactive media. My career spans the breadth of digital production, from production art to web design and front-end development. As a User Experience Designer, my in depth understanding of the design process allows me to meet user goals while balancing aesthetics and technical constraints.
+> I am a User Experience Designer with over eighteen years in interactive media. My career spans the breadth of digital production, from production art to web design and front-end development. As a User Experience Designer, my in depth understanding of the design process allows me to meet user goals while balancing aesthetics and technical constraints.
 
 
 ### UX/UI Skills
@@ -36,8 +36,9 @@ March 2015-present
 *KBS (kirshenbaum bond senecal)*  
 November 2016–present
 
-* Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website
-* Create a Sketch and InVision based workflow to streamline work between departments. Where wireframes  created by UX designers, are visualized by UI designers, and then prepared for handoff to developers
+* Create a design system, user flows, and a prototype for Stanley Black & Decker's Lista product configurator
+* Design a skills matrix for the UX team to visualize strengths and gaps within the team. The skills matrix helps with allocations, skills training, and career development.  
+* Create a Sketch and InVision based workflow to streamline work between departments; Wireframes are created by UX designers, visualized by UI designers, and then prepared for handoff to developers
 
 **Senior User Experience Designer**  
 *Spies & Assassins | KBS (kirshenbaum bond senecal)*  
@@ -45,8 +46,8 @@ March 2015-November 2016
 
 * Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website
 * Create wireframes, user flows, and prototypes for the redesign of the My BMW website
-* Create wireframes and user flows for the 360˚ interactive *Tour of Tomorrow* showcasing the innovations of new BMW 7 Series
 * Create mockups for the interactive informational signage for Bank of Montreal at Toronto's Billy Bishop Airport
+* Conduct user interviews and create content types and wireframes for the Hershey's digital marketing learning site  
 
 ### New York University 
 October 2008–March 2015
@@ -57,7 +58,7 @@ August 2014–present
 
 * Create a new responsive user interface for Sakai, an Open Source Learning Management System
 * Commit back the user experience work from NYU Classes to Sakai
-* Design a new user interface for NYU’s Email Direct — a bulk email communication tool for NYU administrators.
+* Design a new user interface for NYU’s Email Direct — a bulk email communication tool for NYU administrators
   
 **User Experience Designer**  
 *Academic Technology Services, Information Technology Services*  
