@@ -1,7 +1,7 @@
 # Mark Reilly  
 82 Plymouth Avenue   
 Maplewood, NJ 07040  
-<mark@alienresident.net>  
+<mark@markreilly.com>  
 [347 228 3696](tel:+013472283696)
 
 * [Portfolio](https://www.behance.net/markreilly)  
@@ -33,7 +33,7 @@ Maplewood, NJ 07040
 March 2015-present
 
 **Associate Director, User Experience**  
-*KBS (kirshenbaum bond senecal)*  
+*KBS (Kirshenbaum Bond Senecal)*  
 November 2016–present
 
 * Create a design system, user flows, and a prototype for Stanley Black & Decker's Lista product configurator
@@ -41,7 +41,7 @@ November 2016–present
 * Create a Sketch and InVision based workflow to streamline work between departments; Wireframes are created by UX designers, visualized by UI designers, and then prepared for handoff to developers
 
 **Senior User Experience Designer**  
-*Spies & Assassins | KBS (kirshenbaum bond senecal)*  
+*Spies & Assassins | KBS (Kirshenbaum Bond Senecal)*  
 March 2015-November 2016
 
 * Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website
