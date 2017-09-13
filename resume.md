@@ -105,6 +105,19 @@ January 2000–May 2001
 **Production Artist and Animator**  
 *Heritage Project DVD-ROM*  
 
+* Prepared over 500 interactive maps for an DVD-ROM historical atlas feature of the award winning Jewish history television series *The Heritage Project*
+
+## Teaching
+
+**The New School**, *Fall 2004–Spring 2008*   
+**Adjunct faculty member**, *Media Studies Department*  
+
+* Courses: *Foundations of Media Design*, *Digital Video Effects*, and *Motion Graphics with After Effects*
+
+**Columbia University**, *Summer 2005–Summer 2008*   
+**Instructor**, *High School Program*  
+
+* Course: *Digital Filmmaking: From Initial Concept to Final Edit*
 
 ## Education
 * 1999–2007 **Ph.D. Media & Communication**, *European Graduate School*, Saas-Fee, Switzerland. 
@@ -113,19 +126,6 @@ January 2000–May 2001
 * 1991–1994 **B.A. History and Philosophy**, *University College Dublin*, Ireland.
 
 ## Additional Information
-* Prepared over 500 interactive maps for an DVD-ROM historical atlas feature of the award winning Jewish history television series *The Heritage Project*
-
-### Teaching
-
-**The New School**, *Fall 2004–Spring 2008*   
-**Adjunct faculty member**, *Media Studies Department*  
-
-* Courses: Foundations of Media Design and Digital Video Effects
-
-**Columbia University**, *Summer 2005–Summer 2008*   
-**Instructor**, *High School Program*  
-
-* Courses: Digital Filmmaking
 
 ### Organizations
 * **Co-Founder**: *NYU UX Group* & *NYU Web Designers and Developers Group*.  
