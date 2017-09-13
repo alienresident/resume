@@ -48,7 +48,7 @@ October 2008–March 2015
   
 **User Experience Specialist**  
 *Digital Communications Group, Information Technology Services*  
-August 2014–present
+August 2014–March 2015
 
 * Create a new responsive user interface for Sakai, an Open Source Learning Management System
 * Commit back the user experience work from NYU Classes to Sakai
