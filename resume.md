@@ -31,18 +31,17 @@ March 2015–present
 *KBS (Kirshenbaum Bond Senecal)*  
 November 2016–present
 
-* Create a design system, user flows, and a prototype for Stanley Black & Decker's Lista product configurator
-* Design a skills matrix for the UX team to visualize strengths and gaps within the team. The skills matrix helps with allocations, skills training, and career development.  
-* Create a Sketch and InVision based workflow to streamline work between departments; Wireframes are created by UX designers, visualized by UI designers, and then prepared for handoff to developers
+* Leading a design discovery for the website redesign for *PODS*. Delivering a UX audit, competitive research, personas, journey maps, and usability testing
+* Designed a 3D cabinet configurator for *Stanley Black & Decker*. Created a design system, user flows, usability tests, and comprehensive prototypes
+* Built a skills matrix for the UX team to help visualize strengths as well as gaps within the team. Established a *Sketch* and *InVision* workflow to streamline work between the UX, Design, and Development departments
 
 **Senior User Experience Designer**  
 *Spies & Assassins | KBS (Kirshenbaum Bond Senecal)*  
-March 2015-November 2016
+March 2015–November 2016
 
-* Create a modular design system, wireframes, user flows, and prototypes for the responsive redesign of the BMW USA website
-* Create wireframes, user flows, and prototypes for the redesign of the My BMW website
-* Create mockups for the interactive informational signage for Bank of Montreal at Toronto's Billy Bishop Airport
-* Conduct user interviews and create content types and wireframes for the Hershey's digital marketing learning site  
+* Led the responsive redesign of *BMWUSA.com*. Built a modular design system, responsive grid, wireframes, user flows, and prototypes
+* Redesigned the sign up flows for the *My BMW* website. Created wireframes, user flows, interaction and technical documentation, and prototypes
+* Designed a learning site for digital marketers at *Hershey*. Conducted user and stakeholder interviews,  designed content types, and wireframes
 
 ### New York University 
 October 2008–March 2015
