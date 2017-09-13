@@ -15,14 +15,13 @@ Maplewood, NJ 07040
 * Usability Testing, User Interviews, and Personas
 * Sketching, Storyboarding, and Paper Prototyping
 * Wireframing, Card Sorting, and High-fidelity Prototyping
-* Markup (HTML) and Styling (CSS)
-* Visual Design, Style Guides, and Style Tiles 
-* Typography and Graphic Production
+* Design Systems, Style Guides, and Visual Design 
 
 ### Technical Skills
-* Sketch, Photoshop, OmniGraffle, Illustrator, Principle, Flash
+* Sketch, Photoshop, Illustrator, InVision, Principle
+* Markup (HTML) and Styling (CSS)
 * HTML, CSS, Sass & Compass, Javascript & jQuery
-* SVN & Git, PHP, MySQL, Drupal
+* Git & SVN, PHP, MySQL, Drupal
 
 ## Professional Experience
 ### KBS (kirshenbaum bond senecal)
