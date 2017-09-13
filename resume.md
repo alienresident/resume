@@ -8,11 +8,8 @@ Maplewood, NJ 07040
 * [GitHub](http://www.github.com/alienresident)  
 * [LinkedIn](https://www.linkedin.com/in/markareilly)
 
-
 ## Summary 
-
 > I am a User Experience Designer with over eighteen years in interactive media. My career spans the breadth of digital production, from production art to web design and front-end development. As a User Experience Designer, my in depth understanding of the design process allows me to meet user goals while balancing aesthetics and technical constraints.
-
 
 ### UX/UI Skills
 * Usability Testing, User Interviews, and Personas
