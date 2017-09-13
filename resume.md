@@ -1,8 +1,8 @@
 # Mark Reilly  
-82 Plymouth Avenue   
-Maplewood, NJ 07040  
 <mark@markreilly.com>  
 [347 228 3696](tel:+013472283696)
+82 Plymouth Avenue   
+Maplewood, NJ 07040  
 
 * [Portfolio](https://www.behance.net/markreilly)  
 * [GitHub](http://www.github.com/alienresident)  
