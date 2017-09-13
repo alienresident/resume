@@ -27,6 +27,10 @@ html {
   }
 
   @include respond-to("small") {
+    @include type-size($body-font-size - 2); // 14px
+  }
+
+  @include respond-to("x-small") {
     @include type-size($body-font-size - 4); // 12px
   }
 }
@@ -50,6 +54,10 @@ body {
   }
 
   @include respond-to("small") {
+    @include type-size(1rem, $body-line-height - .1); // 14px/1.4em
+  }
+
+  @include respond-to("x-small") {
     @include type-size(1rem, $body-line-height - .1); // 12px/1.4em
     word-spacing: -.085em;
   }
@@ -57,6 +65,6 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  max-width: ms(15);
+  max-width: ms(16);
   padding: 0 1em;
 }
