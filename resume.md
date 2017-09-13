@@ -50,24 +50,23 @@ October 2008–March 2015
 *Digital Communications Group, Information Technology Services*  
 August 2014–March 2015
 
-* Create a new responsive user interface for Sakai, an Open Source Learning Management System
-* Commit back the user experience work from NYU Classes to Sakai
-* Design a new user interface for NYU’s Email Direct — a bulk email communication tool for NYU administrators
+* Designed and developed a new responsive user interface for *Sakai*—an open source Learning Management System. Wrote new HTML 5 templates and a Sass based CSS framework. Incorporated the user experience and user interface improvements from *NYU Classes* 
+* Redesigned and prototyped a new user interface for NYU’s *Email Direct*—a bulk email communication tool for NYU administrators
   
 **User Experience Designer**  
 *Academic Technology Services, Information Technology Services*  
 October 2011–August 2014   
 
-* Design a new user interface for NYU Classes — the Learning Management System (LMS) based on extensive usability testing
-* Create a ‘Mobile First’ prototype for our redesign of [*MediaCommons*](http://mediacommons.futureofthebook.org/) — a digital network for professors and post-graduate students of film and media studies
+* Redesigned and developed a new user interface for *NYU Classes*—their Learning Management System (LMS). The redesign was based on extensive usability testing and research
+* Created a ‘Mobile First’ prototype for our redesign of [*MediaCommons*](http://mediacommons.futureofthebook.org/)—a digital network for professors and post-graduate students of film and media studies
 
 **Interactive Designer and Developer**  
 *Faculty Technology Services, Information Technology Services*   
 October 2008–October 2011   
 
-* Design and develop [*MediaCommons*](http://mediacommons.futureofthebook.org/) — a [digital network for professors and post-graduate students](http://www.nytimes.com/2010/08/24/arts/24peer.html) — using Drupal
-* Establish a distinctive look and feel for the MediaCommons network and it’s project sites
-* Design and develop book and photo viewing websites, and streaming audio and video for the NYU Libraries’ special digital collections 
+* *Designed and developed [*MediaCommons*](http://mediacommons.futureofthebook.org/)—[a digital network for professors and post-graduate students](http://www.nytimes.com/2010/08/24/arts/24peer.html)—using Drupal*
+* Established a distinctive look and feel for the *MediaCommons* network and it’s project sites
+* Designed and developed two platforms for viewing the digital collections of *NYU Libraries*. Allowing patrons to view both image based collections—scanned books and photographs—and stream audio and video collections
 
 ### Columbia University
 August 2001–September 2008  
@@ -76,38 +75,36 @@ August 2001–September 2008
 *Columbia University Digital Knowledge Ventures* (a small ‘digital agency’ within Columbia University)    
 May 2005–September 2008 
 
-* Create educational course content and departmental websites for Columbia University and affiliated non-profits
-* Design and develop websites using open source content management systems and static html
-
+* Designed and developed educational course content and departmental websites for *Columbia University* and affiliated non-profits
+ 
 **Web Designer and Developer**  
 *Columbia University Digital Knowledge Ventures*  
 August 2001–May 2005 
 
-* Work with Columbia Faculty to design and develop interactive e-seminars and courses
-* Design and develop interactive maps, audio slideshows, podcasts, and basic video production and post-production for streaming video and DVD
+* Worked with *Columbia University* faculty to design and develop interactive e-seminars and courses
+* Designed and developed interactive maps, audio slideshows, podcasts, and  video production and post-production for streaming video and DVD
 
 ### European Graduate School
 Fall 1999–Summer 2008  
 **Assistant Director for Web Design and Development**  
 *Dept. of Media and Communications*  
 
-* Establish a visual identity for a new university and a strong online presence
-* Design, develop, and maintain the European Graduate School’s website
+* Established both a visual identity for this new university and a strong online presence using emerging SEO practices 
+* Designed, developed, and maintained the European Graduate School’s website
 
 ### Scholastic
 January 2000–May 2001   
 **Web Designer**  
 *e-Scholastic*   
 
-* Design educational, commercial, and promotional websites for Scholastic
-* Design daily site graphics, flash based interactive quizzes and educational activities
+* Designed educational, commercial, and promotional websites for Scholastic
+* Designed daily site graphics, interactive quizzes, and educational activities
 
 ### Thirteen, WNET
 1998–1999   
 **Production Artist and Animator**  
 *Heritage Project DVD-ROM*  
 
-* Produce over 500 interactive maps for an DVD-ROM historical atlas feature of the award winning Jewish history television series, *The Heritage Project*
 
 ## Education
 * 1999–2007 **Ph.D. Media & Communication**, *European Graduate School*, Saas-Fee, Switzerland. 
@@ -116,6 +113,7 @@ January 2000–May 2001
 * 1991–1994 **B.A. History and Philosophy**, *University College Dublin*, Ireland.
 
 ## Additional Information
+* Prepared over 500 interactive maps for an DVD-ROM historical atlas feature of the award winning Jewish history television series *The Heritage Project*
 
 ### Teaching
 
