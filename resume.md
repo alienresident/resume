@@ -25,8 +25,7 @@ Maplewood, NJ 07040
 
 ## Professional Experience
 ### KBS (kirshenbaum bond senecal)
-
-March 2015-present
+March 2015–present
 
 **Associate Director, User Experience**  
 *KBS (Kirshenbaum Bond Senecal)*  
