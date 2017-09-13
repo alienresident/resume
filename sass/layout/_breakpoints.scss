@@ -1,4 +1,4 @@
-//////////////////////////////
+    //////////////////////////////
 // VARIABLES: For layout breakpoints 
 //////////////////////////////
 
@@ -7,6 +7,7 @@ $breakpoint-to-ems: true;
 
 $breakpoints: add-breakpoint("xx-large", (1441px));
 $breakpoints: add-breakpoint("x-large", (1281px 1440px));
-$breakpoints: add-breakpoint("large", (801px 1280px, 'no-query' true));
-$breakpoints: add-breakpoint("medium", (561px 800px));
-$breakpoints: add-breakpoint("small", (240px 560px));
+$breakpoints: add-breakpoint("large", (960px 1280px, 'no-query' true));
+$breakpoints: add-breakpoint("medium", (820px 959px));
+$breakpoints: add-breakpoint("small", (561px 819px));
+$breakpoints: add-breakpoint("x-small", (240px 560px));
