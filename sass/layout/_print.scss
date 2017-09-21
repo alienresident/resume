@@ -11,10 +11,14 @@
     margin: .5in .25in .25in .25in;
   }
   html {
-    @include type-size($body-font-size - 5);
+    @include type-size($body-font-size - 4);
+    height: auto;
+
   }
   body {
     @include type-size( 1rem, $body-line-height - .1);
+    margin: 0 0 0 0;
+    height: auto;
   }
   a,
   a:visited,
@@ -22,61 +26,114 @@
     //color: #444; // to be determined later
   }
 
-  .download-pdf {
+  .download-pdf,
+  .personal-links ul {
     display: none;
   }
 
-  h1 {
+  .name-links {
+
+    h1 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    [itemprop="name"],
+    .personal-links,
+    .address-contact {
+      display: table-cell;
+      vertical-align: bottom;
+    }
+
+    [itemprop="name"] {
+      width: 37.5%;
+    }
+
+    .address-contact {
+      width: 35%;
+
+      li.address {
+        margin-bottom: .33em;
+      }
+    }
+  } 
+
+  .name-employment-period {
+
+    display: table;
+    width: 100%;
+
+    .employment-period {
+      display: table-cell;
+      text-align: right;
+    }
+  }
+  
+  .tech-skills {
     margin-top: 0;
-    padding-top: 0;
+
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  aside {
+    max-width: 33.3333%;
+    float: right;
+  }
+
+  .ux-skills, 
+  .tech-skills {
+    float: none !important;
+    padding-right: 0 !important;
+    max-width: 100%  !important;
+  }
+    
+  .experience-skills {
+    max-width: 65%;
+    float: left;
+    margin-right: 1.66667%;
+  }
+
+  .summary {
+    max-width: 65%;
+    float: left;
+    margin-right: 1.66667%;
   }
 
   // force page breaks
   .employment-period.page-2 {
     page-break-before: always;
-
-    h3 {
-      margin-top: 1em;
-    }
-  }
-
-  .experience-skills {
-    display: table;
-    width: 100%;
-
-    .ux-skills {
-      display: table-cell;
-      width: ms(13);
-    }
-
-    .tech-skills {
-      display: table-cell;
-      max-width: ms(11);
-    }
-  }
-
-  h2 {
-    margin-top: .25em;
-    padding-top: 0;
   }
   
   // force page breaks
   .additional-information {
     page-break-before: always;
+    page-break-after: none;
+    page-break-inside: avoid;
 
-    h2 {
-      margin-top: 1em;
-      margin-bottom: .75em;
-    }
+    // h2 {
+    //   margin-top: 1em;
+    //   margin-bottom: .75em;
+    // }
 
-    h3 {
-      margin-top: 1em;
-      margin-bottom: .75em;
-    }
+    // h3 {
+    //   margin-top: 1em;
+    //   margin-bottom: .75em;
+    // }
 
-    h4 {
-      margin-top: 1em;
-      margin-bottom: .75em;
-    }
+    // h4 {
+    //   margin-top: 1em;
+    //   margin-bottom: .75em;
+    // }
+  }
+
+  article {
+    margin-bottom: 0;
+  }
+
+  #trainings ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
