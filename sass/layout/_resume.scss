@@ -29,13 +29,17 @@ ul {
     padding: 0 0 0 .5em;
   }
 
+  @include respond-to("x-small") {
+    padding: 0 0 0 .5em;
+  }
+
   li {
     padding: 0 0 .25em 0;
   }
 }
 
 .download-pdf {
-  text-align: right;
+  //text-align: right;
   
   a {
     display: inline-block;
@@ -53,7 +57,7 @@ ul {
     }
   }
 
-  @include respond-to("small") {
+  @include respond-to("x-small") {
     .text-label {
       display: none;
     }
@@ -71,16 +75,30 @@ ul {
     }
 
     [itemprop="name"],
-    .personal-links {
+    .personal-links,
+    .address-contact {
       display: table-cell;
+      vertical-align: bottom;
     }
 
     [itemprop="name"] {
-      width: ms(13);
+      width: 37.5%;
     }
 
-    .personal-links {
-      max-width: ms(10);
+    .address-contact {
+      width: 35%;
+      
+      ul {
+        line-height: 1.375;
+      }
+
+      li.address {
+        margin-bottom: .33em;
+      }
+    }
+
+    .personal-links ul li {
+      margin-bottom: 1.45em;
     }
   }
 
@@ -93,16 +111,30 @@ ul {
     }
 
     [itemprop="name"],
-    .personal-links {
+    .personal-links,
+    .address-contact {
       display: table-cell;
+      vertical-align: bottom;
     }
 
     [itemprop="name"] {
-      width: ms(13);
+      width: 37.5%;
     }
 
-    .personal-links {
-      max-width: ms(10);
+    .address-contact {
+      width: 35%;
+      
+      ul {
+        line-height: 1.375;
+      }
+
+      li.address {
+        margin-bottom: .33em;
+      }
+    }
+
+    .personal-links ul li {
+      margin-bottom: 1.45em;
     }
   }
 
@@ -115,17 +147,32 @@ ul {
     }
 
     [itemprop="name"],
-    .personal-links {
+    .personal-links,
+    .address-contact {
       display: table-cell;
+      vertical-align: bottom;
     }
 
     [itemprop="name"] {
-      width: ms(13);
+      width: 37.5%;
     }
 
-    .personal-links {
-      max-width: ms(10);
+    .address-contact {
+      width: 35%;
+      
+      ul {
+        line-height: 1.375;
+      }
+
+      li.address {
+        margin-bottom: .33em;
+      }
     }
+
+    .personal-links ul li {
+      margin-bottom: 1.45em;
+    }
+
   }
 
   @include respond-to("medium") {
@@ -137,17 +184,30 @@ ul {
     }
 
     [itemprop="name"],
-    .personal-links {
+    .personal-links,
+    .address-contact {
       display: table-cell;
+      vertical-align: bottom;
     }
 
     [itemprop="name"] {
-      width: ms(12);
+      width: 37.5%;
     }
 
-    .personal-links {
-      max-width: ms(10);
-      text-align: right;
+    .address-contact {
+      width: 35%;
+      
+      ul {
+        line-height: 1.375;
+      }
+
+      li.address {
+        margin-bottom: .33em;
+      }
+    }
+
+    .personal-links ul li {
+      margin-bottom: 1.45em;
     }
   }
 
@@ -168,9 +228,28 @@ ul {
       margin-top: 0;
     }
   }
+
+  @include respond-to("x-small") {
+    display: table;
+    width: 100%;
+
+    [itemprop="name"] {
+      display: table-row;
+    }
+
+    .personal-links {
+      display: table-header-group;
+    }
+
+    h1 {
+      padding-top: 0;
+      margin-top: 0;
+    }
+  }
 }
 
 .personal-links {
+
   ul {
     margin: 0;
     padding: 0;
@@ -179,12 +258,21 @@ ul {
 
     li {
       display: inline-block;
-      padding: 0 0 .25em .5em;
+      padding: 0 0 .25em .275em;
       margin-left: 0;
     }
   }
-  
+
   @include respond-to("small") {
+    ul li {
+      width: 32%;
+      text-align: center;
+      font-size: 1.2em;
+      padding: .5em .25em 0 .25em;
+    }
+  }
+
+  @include respond-to("x-small") {
     ul li {
       width: 32%;
       text-align: center;
@@ -210,7 +298,6 @@ ul {
 }
 
 @include respond-to("large") {
-  .email,
   .phone {
     &:before {
       content: " • ";
@@ -219,7 +306,6 @@ ul {
 }
 
 @include respond-to("x-large") {
-  .email,
   .phone {
     &:before {
       content: " • ";
@@ -228,7 +314,6 @@ ul {
 }
 
 @include respond-to("xx-large") {
-  .email,
   .phone {
     &:before {
       content: " • ";
@@ -236,17 +321,16 @@ ul {
   }
 }
 
-
-@include respond-to("medium") {
-  .email,
-  .phone {
-    &:before {
-      content: " • ";
-    }
-  }
-}
 
 @include respond-to("small") {
+  .phone {
+    &:before {
+      content: " • ";
+    }
+  }
+}
+
+@include respond-to("x-small") {
   .address {
     display: block;
   }
@@ -267,115 +351,147 @@ ul {
 }
 
 .summary {
+  
+  max-width: 65%;
+  float: left;
+  margin-right: 1.66667%;
+
   h2 {
     margin-top: .25em;
     color: #555;
   }
 
+  @include respond-to("small") {
+    max-width: 85%;
+    float: none;
+  }
+
+  @include respond-to("x-small") {
+    max-width: 100%;
+    float: none;
+  }
+
   blockquote {
-    @include respond-to("large") {
-      max-width: (ms(14) + 1.5em);
-    }
-
-    @include respond-to("x-large") {
-      max-width: (ms(14) + 1.5em);
-    }
-
-    @include respond-to("xx-large") {
-      max-width: (ms(14) + 1.5em);
-    }
 
     @include respond-to("medium") {
       border: none;
-      margin: 0 auto;
+      margin: 0;
       max-width: (ms(14) + 1.5em);
     }
 
     @include respond-to("small") {
       border: none;
-      margin: 0 auto;
+      margin: 0;
+      max-width: (ms(14) + 1.5em);
+    }
+
+    @include respond-to("x-small") {
+      border: none;
+      margin: 0;
       max-width: (ms(14) + 1em);
     }
   }
 }
 
-
-.experience-skills {
-  section {
-    max-width: ms(15);
-
-    p {
-      margin: 1em 0;
-      max-width: ms(14);
-    }
-
-    ul {
-      margin: 1em 0 1.5em .475em;
-      max-width: ms(14);
-    }
-  }
-
   aside {
+    max-width: 33.3333%;
+    float: right;
+    
     h3 {
-      margin-top: 0;
+      margin-top: .2em;
       margin-bottom: .5em;
     }
 
     ul {
       margin: 1em 0 0 .25em;
       padding: 0;
+      font-size: .875em;
+      line-height: 1.5;
     }
 
     @include respond-to("large") {
-      display: table;
-      width: 100%;
-
-      .ux-skills {
-        display: table-cell;
-        width: ms(13);
-      }
-
       .tech-skills {
-        display: table-cell;
-        max-width: ms(10);
+        margin-top: 1.175em;
       }
     }
 
     @include respond-to("x-large") {
-      display: table;
-      width: 100%;
-
-      .ux-skills {
-        display: table-cell;
-        width: ms(13);
-      }
-
       .tech-skills {
-        display: table-cell;
-        max-width: ms(10);
+        margin-top: 1.175em;
       }
     }
 
     @include respond-to("xx-large") {
-      display: table;
-      width: 100%;
-
-      .ux-skills {
-        display: table-cell;
-        width: ms(13);
-      }
-
       .tech-skills {
-        display: table-cell;
-        max-width: ms(10);
+        margin-top: 1.175em;
       }
     }
+
+    // @include respond-to("medium") {
+    //   max-width: 100%;
+    //   float: none;
+
+    //   .ux-skills, 
+    //   .tech-skills {
+    //     float: left;
+    //     padding-right: 1em;
+    //     max-width: 50%;
+    //   }
+    // }
+
+    @include respond-to("small") {
+      max-width: 100%;
+      float: none;
+
+      .ux-skills, 
+      .tech-skills {
+        float: left;
+        padding-right: 1em;
+        max-width: 50%;
+      }
+    }
+
+    @include respond-to("x-small") {
+      max-width: 100%;
+      float: none;
+    }
+  }
+
+.experience-skills {
+  max-width: 65%;
+  float: left;
+  margin-right: 1.66667%;
+
+  section {
+
+    p {
+      margin: .33em 0;
+    }
+
+    ul {
+      margin: .66em 0 1em .475em;
+    }
+  }
+
+  @include respond-to("small") {
+    max-width: 79%;
+    float: none;
+  }
+
+  @include respond-to("x-small") {
+    max-width: 100%;
+    float: none;
   }
 }
 
 .experience {
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  } 
+
   h3 {
-    margin: .5em 0 0 0;
+    margin: .25em 0 0 0;
     padding: 0;
   }
 
@@ -416,6 +532,7 @@ ul {
       max-width: ms(9);
       text-align: right;
     }
+
     [itemprop="name"] {
       width: ms(14);
     }
