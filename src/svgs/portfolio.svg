@@ -1,11 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <defs>
-    <filter id="a" width="24" height="24" x="0" y="0" filterUnits="userSpaceOnUse">
-      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-    </filter>
-  </defs>
-  <mask id="b" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse">
-    <path fill="#FFF" d="M2.818 19.357h8.563V13.33c.001-1.444 1.172-2.615 2.616-2.616h6.513V6.746c0-.954-.774-1.727-1.728-1.727H15.18V3.753c-.001-1.47-1.193-2.661-2.663-2.663H9.083C7.612 1.092 6.42 2.283 6.42 3.753v1.262H2.818c-.954 0-1.728.774-1.728 1.728V17.63c0 .953.774 1.727 1.728 1.727zM8.667 3.753c0-.229.186-.414.416-.414h3.435c.229 0 .416.186.416.414v1.262H8.667V3.753zm14.242 9.58v8.157c0 .198-.079.387-.219.528-.14.141-.329.219-.528.219h-8.165c-.198 0-.387-.078-.528-.219-.141-.141-.219-.33-.219-.528v-8.157c0-.413.334-.747.746-.747h3.167v2.948h1.914v-2.948h3.087c.413.002.745.336.745.747z" filter="url(#a)"/>
-  </mask>
-  <path fill="#FF2020" d="M0 0h24v24H0V0z" mask="url(#b)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.25" y="0.414" width="15.375" height="15.215">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="0.25" y="0.414" width="15.375" height="15.215" id="b">
+	<path fill="#FFFFFF" filter="url(#Adobe_OpacityMaskFilter)" d="M2.056,12.686h5.485v-3.82c0-0.916,0.75-1.658,1.676-1.659h4.172
+		V4.69c0-0.605-0.496-1.094-1.106-1.094H9.975V2.793C9.974,1.861,9.211,1.106,8.269,1.105H6.068
+		C5.127,1.106,4.362,1.861,4.362,2.793v0.8H2.056c-0.611,0-1.107,0.491-1.107,1.096v6.901C0.949,12.195,1.444,12.686,2.056,12.686z
+		 M5.802,2.793c0-0.145,0.119-0.263,0.266-0.263h2.201c0.147,0,0.266,0.118,0.266,0.263v0.8H5.802V2.793z M14.925,8.867v5.171
+		c0,0.124-0.051,0.245-0.14,0.335c-0.091,0.09-0.211,0.139-0.338,0.139h-5.23c-0.127,0-0.248-0.049-0.34-0.139
+		c-0.089-0.09-0.139-0.211-0.139-0.335V8.867c0-0.262,0.215-0.474,0.479-0.474h2.027v1.868h1.228V8.393h1.978
+		C14.712,8.394,14.925,8.606,14.925,8.867z"/>
+</mask>
+<path mask="url(#b)" fill="#FF2020" d="M0.25,0.414h15.375v15.215H0.25V0.414z"/>
 </svg>
