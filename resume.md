@@ -136,7 +136,7 @@ January 2000–May 2001
 
 ##### Presentations
 * **Better Tools for a Better Process** at *KBS' Bits & Bites* — 23rd March, 2017
-* [**Beyond Putting Lipstick on the Pig**](http://i5.nyu.edu/~mar22/sakai/edui/) at [*EdUI 2014*](http://eduiconf.org/sessions/edui_pig/) — 30th September, 2014    
+* [**Beyond Putting Lipstick on the Pig**](http://examples.markreilly.com/sakai/edui/) at [*EdUI 2014*](http://eduiconf.org/sessions/edui_pig/) — 30th September, 2014    
 * [**Sakai: Meet MORPHEUS**](http://markreilly.com/examples/sakai/open-apereo/) at [*Open Apereo 2014*](http://lanyrd.com/2014/apereo/sczzxw/) — 2nd June, 2014 
 * [**Rapid Prototyping Techniques**](http://markreilly.com/examples/torchtech-ux-breakfast/) at *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014
 * **Fixing Broken User Experience** at *NYU ITS All Hands Meeting* – 21st September, 2012
