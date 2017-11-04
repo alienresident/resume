@@ -40,7 +40,7 @@ ul {
 
 .download-pdf {
   //text-align: right;
-  
+
   a {
     display: inline-block;
     color: #fdfdfd;
@@ -87,7 +87,7 @@ ul {
 
     .address-contact {
       width: 35%;
-      
+
       ul {
         line-height: 1.375;
       }
@@ -123,7 +123,7 @@ ul {
 
     .address-contact {
       width: 35%;
-      
+
       ul {
         line-height: 1.375;
       }
@@ -159,7 +159,7 @@ ul {
 
     .address-contact {
       width: 35%;
-      
+
       ul {
         line-height: 1.375;
       }
@@ -196,7 +196,7 @@ ul {
 
     .address-contact {
       width: 35%;
-      
+
       ul {
         line-height: 1.375;
       }
@@ -351,7 +351,7 @@ ul {
 }
 
 .summary {
-  
+
   max-width: 65%;
   float: left;
   margin-right: 1.66667%;
@@ -396,7 +396,7 @@ ul {
   aside {
     max-width: 33.3333%;
     float: right;
-    
+
     h3 {
       margin-top: .2em;
       margin-bottom: .5em;
@@ -431,7 +431,7 @@ ul {
     //   max-width: 100%;
     //   float: none;
 
-    //   .ux-skills, 
+    //   .ux-skills,
     //   .tech-skills {
     //     float: left;
     //     padding-right: 1em;
@@ -443,7 +443,7 @@ ul {
       max-width: 100%;
       float: none;
 
-      .ux-skills, 
+      .ux-skills,
       .tech-skills {
         float: left;
         padding-right: 1em;
@@ -465,11 +465,11 @@ ul {
   section {
 
     p {
-      margin: .33em 0;
+      margin: .33em 0 .33em 1em;
     }
 
     ul {
-      margin: .66em 0 1em .475em;
+      margin: .66em 0 1em 1em;
     }
   }
 
@@ -488,7 +488,7 @@ ul {
   h2 {
     margin-top: 0;
     margin-bottom: 0;
-  } 
+  }
 
   h3 {
     margin: .25em 0 0 0;
@@ -529,8 +529,8 @@ ul {
 
     .employment-period {
       display: table-cell;
-      max-width: ms(9);
       text-align: right;
+      padding-right: 1em;
     }
 
     [itemprop="name"] {
