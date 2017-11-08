@@ -61,14 +61,14 @@ ul {
 
     position: fixed;
     bottom: 24px;
-    right: 24px;
+    right: 9px; // 24px - 15px for scroll bar
 
     .text-label {
       display: none;
     }
 
     a {
-      padding: .5em .3333em;
+      padding: .667em .5em;
       border-radius: 50%;
       margin-bottom: 0;
       font-size: 2em;
@@ -80,15 +80,14 @@ ul {
 
     position: fixed;
     bottom: 24px;
-    right: 24px;
-
+    right: 9px; // 24px - 15px for scroll bar
 
     .text-label {
       display: none;
     }
 
     a {
-      padding: .5em .3333em;
+      padding: .667em .5em;
       border-radius: 50%;
       margin-bottom: 0;
       font-size: 2em;
