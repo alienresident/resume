@@ -39,7 +39,6 @@ ul {
 }
 
 .download-pdf {
-  //text-align: right;
 
   a {
     display: inline-block;
@@ -47,6 +46,7 @@ ul {
     background: $link-color;
     padding: .125em .5em;
     border-radius: 0 0 .25em .25em;
+    margin-bottom: .25em;
 
     &:hover,
     &:active,
@@ -58,9 +58,63 @@ ul {
   }
 
   @include respond-to("x-small") {
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
     .text-label {
       display: none;
     }
+
+    a {
+      padding: .5em .3333em;
+      border-radius: 50%;
+      margin-bottom: 0;
+      font-size: 2em;
+    }
+  }
+
+  @include respond-to("small") {
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    .text-label {
+      display: none;
+    }
+
+    a {
+      padding: .5em .3333em;
+      border-radius: 50%;
+      margin-bottom: 0;
+      font-size: 2em;
+    }
+  }
+
+  @include respond-to("xx-large") {
+    position: fixed;
+    background: white;
+    width: 100%;
+  }
+
+  @include respond-to("x-large") {
+    position: fixed;
+    background: white;
+    width: 100%;
+  }
+
+  @include respond-to("large") {
+    position: fixed;
+    background: white;
+    width: 100%;
+  }
+
+  @include respond-to("medium") {
+    position: fixed;
+    background: white;
+    width: 100%;
   }
 }
 
@@ -666,6 +720,7 @@ section.additional-information {
 }
 
 article {
+  padding-top: 1em;
   margin-bottom: 2em;
 }
 
