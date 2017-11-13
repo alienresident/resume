@@ -40,17 +40,17 @@
 
     [itemprop="name"],
     .personal-links,
-    .address-contact {
+    .street-address {
       display: table-cell;
-      vertical-align: bottom;
     }
 
     [itemprop="name"] {
       width: 37.5%;
     }
 
-    .address-contact {
-      width: 35%;
+    .street-address {
+      width: 28%;
+      padding-right: 2em;
 
       li.address {
         margin-bottom: .33em;

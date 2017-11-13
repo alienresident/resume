@@ -132,17 +132,23 @@ ul {
 
     [itemprop="name"],
     .personal-links,
-    .address-contact {
+    .street-address {
       display: table-cell;
-      vertical-align: bottom;
     }
 
     [itemprop="name"] {
       width: 37.5%;
     }
 
-    .address-contact {
-      width: 35%;
+    .contact {
+      margin-top: -.75em;
+      text-indent: 0;
+      padding: 0;
+    }
+
+    .street-address {
+      width: 28.5%;
+      padding-right: 2em;
 
       ul {
         line-height: 1.375;
@@ -168,17 +174,23 @@ ul {
 
     [itemprop="name"],
     .personal-links,
-    .address-contact {
+    .street-address {
       display: table-cell;
-      vertical-align: bottom;
     }
 
     [itemprop="name"] {
       width: 37.5%;
     }
 
-    .address-contact {
-      width: 35%;
+    .contact {
+      margin-top: -.75em;
+      text-indent: 0;
+      padding: 0;
+    }
+
+    .street-address {
+      width: 28.5%;
+      padding-right: 2em;
 
       ul {
         line-height: 1.375;
@@ -204,17 +216,23 @@ ul {
 
     [itemprop="name"],
     .personal-links,
-    .address-contact {
+    .street-address {
       display: table-cell;
-      vertical-align: bottom;
     }
 
     [itemprop="name"] {
       width: 37.5%;
     }
 
-    .address-contact {
-      width: 35%;
+    .contact {
+      margin-top: -.75em;
+      text-indent: 0;
+      padding: 0;
+    }
+
+    .street-address {
+      width: 28.5%;
+      padding-right: 2em;
 
       ul {
         line-height: 1.375;
@@ -241,17 +259,23 @@ ul {
 
     [itemprop="name"],
     .personal-links,
-    .address-contact {
+    .street-address {
       display: table-cell;
-      vertical-align: bottom;
     }
 
     [itemprop="name"] {
       width: 37.5%;
     }
 
-    .address-contact {
-      width: 35%;
+    .contact {
+      margin-top: -.75em;
+      text-indent: 0;
+      padding: 0;
+    }
+
+    .street-address {
+      width: 28.5%;
+      padding-right: 2em;
 
       ul {
         line-height: 1.375;
@@ -275,6 +299,12 @@ ul {
       display: table-row;
     }
 
+    .contact {
+      margin-top: -.75em;
+      text-indent: 0;
+      padding: 0;
+    }
+
     .personal-links {
       display: table-header-group;
     }
@@ -297,6 +327,12 @@ ul {
       display: table-header-group;
     }
 
+    .contact {
+      margin-top: -.75em;
+      text-indent: 0;
+      padding: 0;
+    }
+
     h1 {
       padding-top: 0;
       margin-top: 0;
@@ -314,8 +350,12 @@ ul {
 
     li {
       display: inline-block;
-      padding: 0 0 .25em .275em;
+      padding: 0 2.375em .25em 0;
       margin-left: 0;
+
+      &:last-child {
+        padding: 0 0 .25em 0;
+      }
     }
   }
 
@@ -338,7 +378,7 @@ ul {
   }
 }
 
-.address-contact {
+.street-address {
   ul {
     margin: 0;
     padding: 0;
@@ -349,7 +389,7 @@ ul {
 .phone,
 .email {
   display: inline-block;
-  padding: 0 .125em;
+  padding: 0;
   margin-left: 0;
 }
 
@@ -357,6 +397,7 @@ ul {
   .phone {
     &:before {
       content: " • ";
+      padding: 0 .5em 0 .75em;
     }
   }
 }
@@ -365,6 +406,7 @@ ul {
   .phone {
     &:before {
       content: " • ";
+      padding: 0 .5em 0 .75em;
     }
   }
 }
@@ -373,15 +415,25 @@ ul {
   .phone {
     &:before {
       content: " • ";
+      padding: 0 .5em 0 .75em;
     }
   }
 }
 
+@include respond-to("medium") {
+  .phone {
+    &:before {
+      content: " • ";
+      padding: 0 .5em 0 .75em;
+    }
+  }
+}
 
 @include respond-to("small") {
   .phone {
     &:before {
       content: " • ";
+      padding: 0 .5em 0 .75em;
     }
   }
 }
@@ -394,11 +446,13 @@ ul {
   .email,
   .phone {
     line-height: 1.5em;
-    width: 48%;
   }
 
   .phone {
-    text-align: right;
+    &:before {
+      content: " • ";
+      padding: 0 .5em 0 .75em;
+    }
   }
 }
 
