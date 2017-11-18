@@ -54,12 +54,12 @@ module.exports = function(grunt) {
         }
       }
     },
-    // Grunt-sass 
+    // Grunt-sass
     sass: {
       dev: {
-        // Takes every file that ends with .scss from the scss 
-        // directory and compile them into the css directory. 
-        // Also changes the extension from .scss into .css. 
+        // Takes every file that ends with .scss from the scss
+        // directory and compile them into the css directory.
+        // Also changes the extension from .scss into .css.
         // Note: file name that begins with _ are ignored automatically
         files: [{
           expand: true,
@@ -69,8 +69,8 @@ module.exports = function(grunt) {
           ext: '.css'
         }],
         options: {
-          sourceMap: true, 
-          outputStyle: 'nested', 
+          sourceMap: true,
+          outputStyle: 'nested',
           imagePath: "images",
         }
       },
@@ -83,8 +83,8 @@ module.exports = function(grunt) {
           ext: '.css'
         }],
         options: {
-          sourceMap: false, 
-          outputStyle: 'compressed', 
+          sourceMap: false,
+          outputStyle: 'compressed',
           imagePath: "images",
         }
       }
@@ -212,7 +212,7 @@ module.exports = function(grunt) {
         },
       },
     },
- 
+
     htmlmin: {  // Task
       dist: {  // Target
         options: {  // Target options
@@ -227,7 +227,7 @@ module.exports = function(grunt) {
 
     uncss: {
       options: {
-        ignore: ['.wf-roboto-i4-active i', '.wf-roboto-i4-active em', '.wf-roboto-n7-active b', '.wf-roboto-n7-active strong', '.wf-roboto-n4-active body', '.wf-robotoslab-n4-active h1', '.wf-robotoslab-n4-active h2', '.wf-robotoslab-n4-active h3', '.wf-robotoslab-n4-active h4']
+        ignore: ['.wf-roboto-i4-active i', '.wf-roboto-i4-active em', '.wf-roboto-n7-active b', '.wf-roboto-n7-active strong', '.wf-roboto-n4-active body', '.wf-robotoslab-n4-active h1', '.wf-robotoslab-n4-active h2', '.wf-robotoslab-n4-active h3', '.wf-robotoslab-n4-active h4', '.clone', '.down .clone', '.down .clone h1', '.down .clone .contact']
       },
       dist: {
         options: {
@@ -266,7 +266,7 @@ module.exports = function(grunt) {
     cssmin: {
       dist: {
 
-        files: { 
+        files: {
           'dist/css/all.css': [ 'tmp/css/all.auto.css']
         },
         options: {
@@ -280,7 +280,7 @@ module.exports = function(grunt) {
             compatibility: 'ie8',
             report: 'min'
         },
-        files: { 
+        files: {
           'dist/css/all-ie.css': ['tmp/css/all-ie.auto.css']
         },
       }
@@ -297,11 +297,11 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', [
-    'connect', 
+    'connect',
     'watch'
   ]);
 
-  grunt.registerTask('build', [ 
+  grunt.registerTask('build', [
     'clean:dist', // Clean out temp directories
     'sass:dist',  // Run sass complie
     'svgmin:dist', // Min SVG icons
