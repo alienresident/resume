@@ -1,5 +1,5 @@
 //////////////////////////////
-// LAYOUT: Layout dependent css and media queries only 
+// LAYOUT: Layout dependent css and media queries only
 //////////////////////////////
 
 $body-font-size: 16px;
@@ -33,6 +33,11 @@ html {
   @include respond-to("x-small") {
     @include type-size($body-font-size - 4); // 12px
   }
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
