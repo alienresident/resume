@@ -132,6 +132,7 @@ ul {
 .download-pdf {
 
   a.pdf-link {
+    float: right;
     display: inline-block;
     color: #fdfdfd;
     background: $link-color;

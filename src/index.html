@@ -443,7 +443,7 @@
           this.header = document.getElementById("name-contact");
           this.clone = this.header.cloneNode(true);
           this.clone.classList.add("clone");
-          this.destination = document.getElementById("downloadPDF").appendChild(this.clone);
+          this.destination = document.getElementById("downloadPDF").insertBefore(this.clone, null);
           this.scroll();
           this.events();
         },
