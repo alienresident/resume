@@ -661,12 +661,10 @@ ul {
 
   @include respond-to("small") {
     max-width: 79%;
-    float: none;
   }
 
   @include respond-to("x-small") {
     max-width: 100%;
-    float: none;
   }
 }
 
