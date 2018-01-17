@@ -27,8 +27,47 @@
   }
 
   .download-pdf,
-  .personal-links ul {
+  .personal-links ul a[title*="Github"],
+  .icon-portfolio,
+  .icon-linkedin  {
     display: none;
+  }
+
+  .personal-links
+   {
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+  }
+
+  article {
+    padding: 0;
+    margin: 0;
+  }
+  .personal-links ul {
+    line-height: 1.375;
+    margin-bottom: .33em;
+  }
+  .personal-links ul li {
+    padding: 0;
+    margin: 0;
+    text-indent: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    font-size: 1em;
+  }
+  .personal-links ul a[title*="Portfolio"]:after,
+  .personal-links ul a[title*="LinkedIn"]:after {
+    content:" "attr(href)" ";
+    display: inline-block;
+    font-size: .75em;
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 0 .25em;
+    text-indent: 0;
+    color: #333;
   }
 
   .name-links {
@@ -49,8 +88,8 @@
     }
 
     .street-address {
-      width: 28%;
-      padding-right: 2em;
+      width: 29.2%;
+      padding-right: 3em;
 
       li.address {
         margin-bottom: .33em;
@@ -59,7 +98,6 @@
   }
 
   .name-employment-period {
-
     display: table;
     width: 100%;
 
@@ -112,26 +150,8 @@
     page-break-before: always;
     page-break-after: none;
     page-break-inside: avoid;
-
-    // h2 {
-    //   margin-top: 1em;
-    //   margin-bottom: .75em;
-    // }
-
-    // h3 {
-    //   margin-top: 1em;
-    //   margin-bottom: .75em;
-    // }
-
-    // h4 {
-    //   margin-top: 1em;
-    //   margin-bottom: .75em;
-    // }
   }
 
-  article {
-    margin-bottom: 0;
-  }
 
   #trainings ul {
     margin-bottom: 0;
