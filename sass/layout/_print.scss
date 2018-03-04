@@ -39,11 +39,20 @@
     padding: 0;
     vertical-align: bottom;
   }
-
+  blockquote {
+    margin-bottom: 1.5em;
+  }
+  
   article {
     padding: 0;
     margin: 0;
   }
+
+  h2 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   .personal-links ul {
     line-height: 1.375;
     margin-bottom: .33em;
@@ -119,6 +128,9 @@
   aside {
     max-width: 33.3333%;
     float: right;
+    h3 {
+      //padding-top: .425em;
+    }
   }
 
   .ux-skills,
@@ -138,6 +150,9 @@
     max-width: 65%;
     float: left;
     margin-right: 1.66667%;
+    h2 {
+      //margin: 0;
+    }
   }
 
   // force page breaks
@@ -151,7 +166,6 @@
     page-break-after: none;
     page-break-inside: avoid;
   }
-
 
   #trainings ul {
     margin-bottom: 0;

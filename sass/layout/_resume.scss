@@ -438,7 +438,7 @@ ul {
 
     li {
       display: inline-block;
-      padding: 0 2.375em .25em 0;
+      padding: 0 2em .25em 0;
       margin-left: 0;
 
       &:last-child {
@@ -666,6 +666,7 @@ ul {
   @include respond-to("x-small") {
     max-width: 100%;
   }
+
 }
 
 .experience {
@@ -675,7 +676,7 @@ ul {
   }
 
   h3 {
-    margin: .25em 0 0 0;
+    margin: .5em 0 .25em 0;
     padding: 0;
   }
 
