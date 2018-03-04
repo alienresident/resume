@@ -8,78 +8,93 @@ Maplewood, NJ 07040
 * [GitHub](http://www.github.com/alienresident)  
 * [LinkedIn](https://www.linkedin.com/in/markareilly)
 
-## Summary 
-> I am a User Experience Designer with over eighteen years in interactive media. My career spans the breadth of digital production, from production art to web design and front-end development. As a User Experience Designer, my in depth understanding of the design process allows me to meet user goals while balancing aesthetics and technical constraints.
+## Summary
+> I am a proven design leader who has successfully managed large digital projects for high profile clients. I leverage my extensive background in both design and development to build comprehensive, reusable, and scalable design systems.
 
-### UX/UI Skills
-* Usability Testing, User Interviews, and Personas
-* Sketching, Storyboarding, and Paper Prototyping
-* Wireframing, Card Sorting, and High-fidelity Prototyping
-* Design Systems, Style Guides, and Visual Design 
+### Skills
+* Problem Framing, Ideation, & Design Thinking
+* Design Systems, Style Guides, & Visual Design
+* Responsive Web Design & User Interface Design
+* Interaction Design & Information Architecture
+* Sketching, Storyboarding, & Paper Prototyping
+* Wireframing, Card Sorting, & High-fidelity Prototyping
+* Usability Testing, User Interviews, & Persona
 
 ### Technical Skills
-* Sketch, Photoshop, Illustrator, InVision, Principle
-* Markup (HTML) and Styling (CSS)
-* HTML, CSS, Sass & Compass, Javascript & jQuery
+* Sketch, Photoshop, Illustrator, InDesign
+* InVision, Principle, Framer, OmniGraffle
+* Final Cut Pro, Keynote, After Effects
+* Markup (HTML) & Styling (CSS)
+* Sass, Javascript & jQuery, Grunt & Gulp
 * Git & SVN, PHP, MySQL, Drupal
 
 ## Professional Experience
+
+### Freelance
+November 2017–Present
+
+**User Experience Designer and Consultant**
+
+* Helping *American Express* redesign their card expense reconciliation software
+* Consulted with *Global Law Marketing* on their user experience strategies
+
 ### KBS (kirshenbaum bond senecal)
-March 2015–present
+March 2015–November 2017
 
 **Associate Director, User Experience**  
 *KBS (Kirshenbaum Bond Senecal)*  
 November 2016–present
 
-* Leading a design discovery for the website redesign for *PODS*. Delivering a UX audit, competitive research, personas, journey maps, and usability testing
-* Designed a 3D cabinet configurator for *Stanley Black & Decker*. Created a design system, user flows, usability tests, and comprehensive prototypes
-* Built a skills matrix for the UX team to help visualize strengths as well as gaps within the team. Established a *Sketch* and *InVision* workflow to streamline work between the UX, Design, and Development departments
+* Led a design discovery to redesign the *PODS*. website that won a multi-million dollar redesign contract. Delivered a UX audit, competitive research, personas, journey maps, and usability testing
+* Designed a 3D cabinet configurator for *Stanley Black & Decker*; We successfully launched an MVP and two feature releases. Created a design system, user flows, usability tests, and comprehensive prototypes
+* Led the UX team and built a skills matrix to help visualize our strengths and gaps. Established a *Sketch* and *InVision* workflow to streamline work between the UX, Design, and Development departments
 
 **Senior User Experience Designer**  
 *Spies & Assassins | KBS (Kirshenbaum Bond Senecal)*  
 March 2015–November 2016
 
-* Led the responsive redesign of *BMWUSA.com*. Built a modular design system, responsive grid, wireframes, user flows, and prototypes
-* Redesigned the sign up flows for the *My BMW* website. Created wireframes, user flows, interaction and technical documentation, and prototypes
-* Designed a learning site for digital marketers at *Hershey*. Conducted user and stakeholder interviews,  designed content types, and wireframes
+*  led the responsive redesign of BMWUSA.com, resulting in a 216% increase in mobile traffic surpassing desktop traffic. Built a modular design system, responsive grid, wireframes, user flows, and prototypes
+* Redesigned the sign-up flows for the *My BMW* website. Created wireframes, user flows, interaction and technical documentation, and detailed prototypes
+* Designed a learning center for digital marketing at *Hershey*. Conducted user and stakeholder interviews, designed content types, and wireframes
 
-### New York University 
+### New York University
 October 2008–March 2015
-  
+
 **User Experience Specialist**  
 *Digital Communications Group, Information Technology Services*  
 August 2014–March 2015
 
-* Designed and developed a new responsive user interface for *Sakai*—an open source Learning Management System. Wrote new HTML 5 templates and a Sass based CSS framework. Incorporated the user experience and user interface improvements from *NYU Classes* 
+* Designed and developed a new responsive user interface for *[Sakai](https://sakaiproject.org/)*—an open source Learning Management System—used by over 350 leading learning institutions. Integrating my user experience research and user interface improvements from *NYU Classes*
 * Redesigned and prototyped a new user interface for NYU’s *Email Direct*—a bulk email communication tool for NYU administrators
-  
+
 **User Experience Designer**  
 *Academic Technology Services, Information Technology Services*  
 October 2011–August 2014   
 
-* Redesigned and developed a new user interface for *NYU Classes*—their Learning Management System (LMS). The redesign was based on extensive usability testing and research
+* Conducted extensive usability testing and research on *NYU Classes*—a *Sakai* Learning Management System (LMS). Redesigned and developed the new user interface based on our research recommdations
 * Created a ‘Mobile First’ prototype for our redesign of [*MediaCommons*](http://mediacommons.futureofthebook.org/)—a digital network for professors and post-graduate students of film and media studies
+* Designed *NYU Stream* a video streaming service built on the *Kaltura* platform
 
 **Interactive Designer and Developer**  
 *Faculty Technology Services, Information Technology Services*   
 October 2008–October 2011   
 
-* *Designed and developed [*MediaCommons*](http://mediacommons.futureofthebook.org/)—[a digital network for professors and post-graduate students](http://www.nytimes.com/2010/08/24/arts/24peer.html)—using Drupal*
-* Established a distinctive look and feel for the *MediaCommons* network and it’s project sites
-* Designed and developed two platforms for viewing the digital collections of *NYU Libraries*. Allowing patrons to view both image based collections—scanned books and photographs—and stream audio and video collections
+* *Designed and developed [*MediaCommons*](http://mediacommons.futureofthebook.org/)—[a digital network for professors and post-graduate students](http://www.nytimes.com/2010/08/24/arts/24peer.html)—using Drupal*. Established a distinctive look and feel for the *MediaCommons* network and it’s project sites
+* Designed and developed two platforms for browsing the digital collections of *NYU Libraries*. Allowing patrons to view both image-based collections—scanned books and photographs—and stream audio and video collections
+* Researched streaming services and wrote a report recommending the *Kaltura* platform for NYU's in-house streaming platform
 
 ### Columbia University
 August 2001–September 2008  
 
 **Senior Web Designer and Developer**  
-*Columbia University Digital Knowledge Ventures* (a small ‘digital agency’ within Columbia University)    
-May 2005–September 2008 
+*Columbia University Digital Knowledge Ventures*    
+May 2005–September 2008
 
 * Designed and developed educational course content and departmental websites for *Columbia University* and affiliated non-profits
- 
+
 **Web Designer and Developer**  
 *Columbia University Digital Knowledge Ventures*  
-August 2001–May 2005 
+August 2001–May 2005
 
 * Worked with *Columbia University* faculty to design and develop interactive e-seminars and courses
 * Designed and developed interactive maps, audio slideshows, podcasts, and  video production and post-production for streaming video and DVD
@@ -89,7 +104,7 @@ Fall 1999–Summer 2008
 **Assistant Director for Web Design and Development**  
 *Dept. of Media and Communications*  
 
-* Established both a visual identity for this new university and a strong online presence using emerging SEO practices 
+* Established both a visual identity for this new university and a strong online presence using emerging SEO practices
 * Designed, developed, and maintained the European Graduate School’s website
 
 ### Scholastic
@@ -120,7 +135,8 @@ January 2000–May 2001
 * Course: *Digital Filmmaking: From Initial Concept to Final Edit*
 
 ## Education
-* 1999–2007 **Ph.D. Media & Communication**, *European Graduate School*, Saas-Fee, Switzerland. 
+
+* 1999–2007 **Ph.D. Media & Communication**, *European Graduate School*, Saas-Fee, Switzerland.
 * 1998–2001 **Certificate in Film Production**, *The New School*, NY, NY.
 * 1995–1996 **M.Phil. Medieval History**, *Trinity College*, *Dublin University*, Ireland.
 * 1991–1994 **B.A. History and Philosophy**, *University College Dublin*, Ireland.
@@ -130,20 +146,20 @@ January 2000–May 2001
 ### Organizations
 * **Co-Founder**: *NYU UX Group* & *NYU Web Designers and Developers Group*.  
 * **Co-Organizer**:  DrupalCamp NYC 9 & 10 *NYC  Drupal Users Group*.   
-* **Member**: *IxDA* • *NYC UXPA* • *Gotham Sass Meetup* • *NYC Drupal Users Group* • *Agile Experience Design Meetup* • *Type Directors Club* 
+* **Member**: *IxDA* • *NYC UXPA* • *Gotham Sass Meetup* • *NYC Drupal Users Group* • *Agile Experience Design Meetup* • *Type Directors Club*
 
 ### Selected Presentations, Events, and Trainings
 
 ##### Presentations
 * **Better Tools for a Better Process** at *KBS' Bits & Bites* — 23rd March, 2017
 * [**Beyond Putting Lipstick on the Pig**](http://examples.markreilly.com/sakai/edui/) at [*EdUI 2014*](http://eduiconf.org/sessions/edui_pig/) — 30th September, 2014    
-* [**Sakai: Meet MORPHEUS**](http://markreilly.com/examples/sakai/open-apereo/) at [*Open Apereo 2014*](http://lanyrd.com/2014/apereo/sczzxw/) — 2nd June, 2014 
+* [**Sakai: Meet MORPHEUS**](http://markreilly.com/examples/sakai/open-apereo/) at [*Open Apereo 2014*](http://lanyrd.com/2014/apereo/sczzxw/) — 2nd June, 2014
 * [**Rapid Prototyping Techniques**](http://markreilly.com/examples/torchtech-ux-breakfast/) at *[TorchTech](http://torchtech.law.nyu.edu/about-us/): [UX Networking Breakfast](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/)* — 23rd April, 2014
 * **Fixing Broken User Experience** at *NYU ITS All Hands Meeting* – 21st September, 2012
 * **MediaCommons 2.0** at *[Digital Library Federation Forum](http://old.diglib.org/forums/spring2009/)* — 5th May, 2009
 
 ##### Events
-* [**UX Networking Breakfast**](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/) Co-Organizer: *TorchTech & NYU UX group* — 23rd April, 2014 
+* [**UX Networking Breakfast**](http://torchtech.law.nyu.edu/events/spring-networking-breakfast/torchtech-stories/) Co-Organizer: *TorchTech & NYU UX group* — 23rd April, 2014
 * **UX @ NYU** Co-Organizer: *NYU UX group* — 14th November, 2013
 * **Usability @ NYU** Co-Organizer: *NYU UX group* — 11th December, 2012
 * **DrupalCamp NYC 9 & 10** Co-Organizer and Designer: *NYC Drupal Users Group* — June 2011 & December 2011
