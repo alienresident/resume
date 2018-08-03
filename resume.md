@@ -135,10 +135,10 @@ January 2000–May 2001
 
 ## Education
 
-* 1999–2007 **Ph.D. Media & Communication**, *European Graduate School*, Saas-Fee, Switzerland.
-* 1998–2001 **Certificate in Film Production**, *The New School*, NY, NY.
-* 1995–1996 **M.Phil. Medieval History**, *Trinity College*, *Dublin University*, Ireland.
-* 1991–1994 **B.A. History and Philosophy**, *University College Dublin*, Ireland.
+* **Ph.D. Media & Communication**, *European Graduate School*, Saas-Fee, Switzerland.
+* **Certificate in Film Production**, *The New School*, NY, NY.
+* **M.Phil. Medieval History**, *Trinity College*, *Dublin University*, Ireland.
+* **B.A. History and Philosophy**, *University College Dublin*, Ireland.
 
 ## Additional Information
 
