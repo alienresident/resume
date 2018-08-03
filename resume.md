@@ -4,12 +4,12 @@
 82 Plymouth Avenue   
 Maplewood, NJ 07040  
 
-* [Portfolio](https://www.behance.net/markreilly)  
-* [GitHub](http://www.github.com/alienresident)  
-* [LinkedIn](https://www.linkedin.com/in/markareilly)
+* [Portfolio](https://bit.ly/mark-reilly-portfolio-PDF)  
+* [LinkedIn](http://bit.ly/mark-reilly-linkedin)
+* [GitHub](https://bit.ly/mark-reilly-github)
 
 ## Summary
-> I am a proven design leader who has successfully managed large digital projects for high profile clients. I leverage my extensive background in both design and development to build comprehensive, reusable, and scalable design systems.
+> I am a proven **design leader** who has successfully managed **large digital projects** for **high profile clients**. I leverage my **extensive background** in both **design** and **development** to build comprehensive, reusable, and scalable **digital products** and **design systems**.
 
 ### Skills
 * Problem Framing, Ideation, & Design Thinking
@@ -30,13 +30,12 @@ Maplewood, NJ 07040
 
 ## Professional Experience
 
-### Freelance
-November 2017–Present
+### American Express
+January 2018–Present
 
-**User Experience Designer and Consultant**
+**Senior User Experience Designer**
 
-* Helping *American Express* redesign their card expense reconciliation software
-* Consulted with *Global Law Marketing* on their user experience strategies
+* Working within an agile team to redesign *American Express'* corporate card expense reconciliation software. Leading ideation and sketching sessions, building and testing prototypes. Creating a design system and writing documentation
 
 ### KBS (kirshenbaum bond senecal)
 March 2015–November 2017
@@ -53,7 +52,7 @@ November 2016–present
 *Spies & Assassins | KBS (Kirshenbaum Bond Senecal)*  
 March 2015–November 2016
 
-*  led the responsive redesign of BMWUSA.com, resulting in a 216% increase in mobile traffic surpassing desktop traffic. Built a modular design system, responsive grid, wireframes, user flows, and prototypes
+* Led the responsive redesign of BMWUSA.com, resulting in a 216% increase in mobile traffic surpassing desktop traffic. Built a modular design system, a responsive grid, wireframes, user flows, and prototypes
 * Redesigned the sign-up flows for the *My BMW* website. Created wireframes, user flows, interaction and technical documentation, and detailed prototypes
 * Designed a learning center for digital marketing at *Hershey*. Conducted user and stakeholder interviews, designed content types, and wireframes
 
