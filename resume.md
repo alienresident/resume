@@ -36,6 +36,7 @@ January 2018–Present
 **Senior User Experience Designer**
 
 * Working within an agile team to redesign *American Express'* corporate card expense reconciliation software. Leading ideation and sketching sessions, building and testing prototypes. Creating a design system and writing documentation
+* Transformed *American Express'* Design Language System Sketch file into a versatile UI Kit. Rebuilt to harness Sketch’s reusable styles & nested symbols
 
 ### KBS (kirshenbaum bond senecal)
 March 2015–November 2017
